@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5der1ck84ixn"]
+
+[ext_resource type="Texture2D" uid="uid://bihdwecyg6r8x" path="res://Notira/Images/Charui/character_icon_char_name.png" id="1_wlkat"]
+
+[node name="CharacterIcon" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CharacterIconCharName" type="Sprite2D" parent="."]
+position = Vector2(19, 26)
+scale = Vector2(0.2899559, 0.28840536)
+texture = ExtResource("1_wlkat")

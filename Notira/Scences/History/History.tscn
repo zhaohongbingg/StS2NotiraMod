@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnaumjiylebsl"]
+
+[ext_resource type="Script" uid="uid://dopsj6pmkuxl5" path="res://Notira/Scences/History/NHistory.cs" id="1_58djg"]
+[ext_resource type="Texture2D" uid="uid://bj38r0kiuyqrr" path="res://Notira/Scences/History/historyBG.png" id="2_x3wsv"]
+
+[node name="HIstory" type="Control"]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -316.0
+offset_top = -234.0
+offset_right = -96.0
+offset_bottom = -144.0
+grow_horizontal = 0
+grow_vertical = 0
+pivot_offset = Vector2(110, 45)
+script = ExtResource("1_58djg")
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="Sprite2D" parent="."]
+position = Vector2(201.99997, -142)
+scale = Vector2(0.10351114, 0.2221402)
+texture = ExtResource("2_x3wsv")

@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://yx51qpqynsj0"]
+
+[ext_resource type="Texture2D" uid="uid://bmipa0mggf016" path="res://Notira/Scences/noctella_descend.webp" id="1_26k8u"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -41.0
+offset_top = -14.0
+offset_right = -41.0
+offset_bottom = -14.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+metadata/_edit_vertical_guides_ = [2216.0, 448.0]
+metadata/_edit_horizontal_guides_ = [1152.0, 128.0]
+
+[node name="NotiraBG" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(2169, 830)
+scale = Vector2(0.4591, 0.46772534)
+texture = ExtResource("1_26k8u")
+offset = Vector2(-1736.7778, -388.73727)
+metadata/_edit_group_ = true

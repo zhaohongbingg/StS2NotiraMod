@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dsip68ea5xmjb"
+path="res://.godot/imported/animation.atlas-01bd183000bd0349c5aca110dcb73fd6.spatlas"
+
+[deps]
+
+source_file="res://Notira/Scences/animetion/animation.atlas"
+dest_files=["res://.godot/imported/animation.atlas-01bd183000bd0349c5aca110dcb73fd6.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

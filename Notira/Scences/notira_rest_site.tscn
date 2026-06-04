@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkft7e41sjfud"]
+
+[ext_resource type="Texture2D" uid="uid://ddldhfawnyc5v" path="res://Notira/Scences/notirasite.png" id="1_avj83"]
+
+[node name="notira_rest_site" type="Node2D"]
+
+[node name="Notirasite" type="Sprite2D" parent="."]
+position = Vector2(74.00001, 0)
+scale = Vector2(0.6844059, 0.684406)
+texture = ExtResource("1_avj83")
+
+[node name="ControlRoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="SelectionReticle" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -187.0
+offset_top = -346.0
+offset_right = 233.0
+offset_bottom = 324.0
+
+[node name="Hitbox" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -155.0
+offset_top = -165.0
+offset_right = 154.0
+offset_bottom = 166.0
+
+[node name="ThoughtBubbleRight" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = 121.0
+offset_top = -125.0
+offset_right = 121.0
+offset_bottom = -125.0
+
+[node name="ThoughtBubbleLeft" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_left = -113.0
+offset_top = -95.0
+offset_right = -113.0
+offset_bottom = -95.0

@@ -1,0 +1,61 @@
+[gd_scene load_steps=12 format=3 uid="uid://yirtxm2nffuj"]
+
+[ext_resource type="Texture2D" uid="uid://cgf1bqaqxy8x" path="res://Notira/Scences/idle/ComfyUI_00293_.png" id="1_d8u0o"]
+[ext_resource type="Texture2D" uid="uid://bv46h6nykasy6" path="res://Notira/Scences/idle/ComfyUI_00294_.png" id="2_5u50f"]
+[ext_resource type="Texture2D" uid="uid://crv6vu36dv8on" path="res://Notira/Scences/idle/ComfyUI_00295_.png" id="3_3v0se"]
+[ext_resource type="Texture2D" uid="uid://h51spw5m1mcf" path="res://Notira/Scences/idle/ComfyUI_00296_.png" id="4_dr08j"]
+[ext_resource type="Texture2D" uid="uid://m26tjf1ip580" path="res://Notira/Scences/idle/ComfyUI_00297_.png" id="5_nxoon"]
+[ext_resource type="Texture2D" uid="uid://84ugho5xkq11" path="res://Notira/Scences/idle/ComfyUI_00298_.png" id="6_hiffj"]
+[ext_resource type="Texture2D" uid="uid://bmjtimj2s6qeo" path="res://Notira/Scences/idle/ComfyUI_00299_.png" id="7_75qvn"]
+[ext_resource type="Texture2D" uid="uid://bh4if8cw0v1rg" path="res://Notira/Scences/idle/ComfyUI_00300_.png" id="8_ch80v"]
+[ext_resource type="Texture2D" uid="uid://y2mvmrdlmqi7" path="res://Notira/Scences/idle/ComfyUI_00301_.png" id="9_flu6c"]
+[ext_resource type="Texture2D" uid="uid://ddldhfawnyc5v" path="res://Notira/Scences/notirasite.png" id="10_ghnr6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_iq3j6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_d8u0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_5u50f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_3v0se")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_dr08j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nxoon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_hiffj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_75qvn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ch80v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_flu6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ghnr6")
+}],
+"loop": false,
+"name": &"shop",
+"speed": 5.0
+}]
+
+[node name="notiraMerchant" type="Node2D"]
+
+[node name="notirashop" type="AnimatedSprite2D" parent="."]
+position = Vector2(-11.999999, -260.99997)
+scale = Vector2(0.55319494, 0.55319494)
+sprite_frames = SubResource("SpriteFrames_iq3j6")
+animation = &"shop"
+autoplay = "shop"
+frame = 9
+frame_progress = 1.0
