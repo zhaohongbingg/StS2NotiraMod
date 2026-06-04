@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using BaseLib.Abstracts;
+using BaseLib.Extensions;
+using Godot; 
+using MegaCrit.Sts2.Core.Localization;
+using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
+using Notira.Notira.Extensions;
 
-namespace Notira.NotiraCode.Powers
+namespace Notira.Notira.Powers;
+
+public abstract class NotiraStrengthTempower : CustomTemporaryPowerModel
 {
-    internal class NotiraTemporaryStrengthPower
-    {
-    }
+
+
+    public override PowerModel InternallyAppliedPower
+        => new StrengthPower();
+
+    public override AbstractModel OriginModel => this;
+
+    protected override bool UntilEndOfOtherSideTurn => true;
+
+    protected override int LastForXExtraTurns => 0;
+
 }

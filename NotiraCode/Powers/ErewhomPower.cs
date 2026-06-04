@@ -27,7 +27,7 @@ public sealed class ErewhomPower : NotiraPower
 {
         HoverTipFactory.FromPower<KichikuPower>()
 };
-    public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side != base.Owner.Side)
         {
@@ -44,7 +44,7 @@ public sealed class ErewhomPower : NotiraPower
                 NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(child);
             }
         }
-        await PowerCmd.Apply<KichikuPower>(base.Owner, base.Amount, base.Owner, null);
+        await PowerCmd.Apply<KichikuPower>(null, base.Owner, base.Amount, base.Owner, null);
     }
 
 

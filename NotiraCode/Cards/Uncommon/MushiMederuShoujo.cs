@@ -36,8 +36,8 @@ public class MushiMederuShoujo() : NotiraCard(1, CardType.Power, CardRarity.Unco
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
-        await PowerCmd.Apply<KichikuPower>(base.Owner.Creature, base.DynamicVars["KichikuPower"].BaseValue, base.Owner.Creature, this);
-        await PowerCmd.Apply<MushiPower>(base.Owner.Creature, base.DynamicVars["MushiPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, base.Owner.Creature, base.DynamicVars["KichikuPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<MushiPower>(choiceContext, base.Owner.Creature, base.DynamicVars["MushiPower"].BaseValue, base.Owner.Creature, this);
     }
    
 

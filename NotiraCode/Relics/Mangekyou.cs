@@ -26,20 +26,24 @@ public class Mangekyoui : NotiraRelics
         new DynamicVar("Turns", 6m),
         
 };
-    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, CombatState combatState)
+    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
+     
+              
+         
+    
         if (side == base.Owner.Creature.Side)
         {
             if ((decimal)combatState.RoundNumber <= base.DynamicVars["Turns"].BaseValue)
             {
                 if (combatState.RoundNumber % 2 == 0)
                 {
-                    await PowerCmd.Apply<AnticipatePower>(base.Owner.Creature, 6, base.Owner.Creature, null);
+                    await PowerCmd.Apply<AnticipatePower>( choiceContext,base.Owner.Creature, 6, base.Owner.Creature, null);
 
                 }
                 else
                 {
-                    await PowerCmd.Apply<SetupStrikePower>(base.Owner.Creature, 6, base.Owner.Creature, null);
+                    await PowerCmd.Apply<SetupStrikePower>( choiceContext,base.Owner.Creature, 6, base.Owner.Creature, null);
 
                 }
             }

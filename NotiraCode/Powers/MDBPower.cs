@@ -26,7 +26,7 @@ public sealed class  MDBPower : NotiraPower
 {
         HoverTipFactory.FromPower<BloodPower>()
 };
-    public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side != base.Owner.Side)
         {
@@ -43,7 +43,7 @@ public sealed class  MDBPower : NotiraPower
                 NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(child);
             }
         }
-        await PowerCmd.Apply<BloodPower>(base.CombatState.HittableEnemies, base.Amount, base.Owner, null);
+        await PowerCmd.Apply<BloodPower>(null, base.CombatState.HittableEnemies, base.Amount, base.Owner, null);
     }
 
 

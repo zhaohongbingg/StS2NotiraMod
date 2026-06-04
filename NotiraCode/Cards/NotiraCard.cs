@@ -7,6 +7,8 @@ using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Logging;
 using Notira.Notira.Extensions;
 using Notira.Notira.Characters;
+using MegaCrit.Sts2.Core.Combat;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 
 namespace Notira.Notira.Cards;
 
@@ -55,5 +57,19 @@ public abstract class NotiraCard : CustomCardModel {
             return ResourceLoader.Exists(path) ? path : "Beta/card.png".CardImagePath();
         }
     }
+ 
+  /*  public override Task BeforeSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
+    {
+        if (side != CombatSide.Player)
+        {
+            return Task.CompletedTask;
+        }
+        if (base.Pile.Type != PileType.Hand)
+        {
+            return Task.CompletedTask;
+        }
+        CardsInHand = base.Pile.Cards.Count;
+        return Task.CompletedTask;
+    }*/
 }
 

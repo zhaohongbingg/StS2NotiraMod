@@ -39,7 +39,7 @@ public class HimenoSena() : NotiraCard(2, CardType.Power, CardRarity.Uncommon, T
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<SenaPower>(base.Owner.Creature, base.DynamicVars["sena"].IntValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<SenaPower>(choiceContext, base.Owner.Creature, base.DynamicVars["sena"].IntValue, base.Owner.Creature, this);
 
 
 

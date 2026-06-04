@@ -33,7 +33,7 @@ public class  MDB() : NotiraCard(1,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<MDBPower>(Owner.Creature, DynamicVars["MDB"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<MDBPower>(choiceContext, Owner.Creature, DynamicVars["MDB"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

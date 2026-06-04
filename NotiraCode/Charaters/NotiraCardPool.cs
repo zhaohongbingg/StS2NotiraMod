@@ -1,21 +1,22 @@
 using BaseLib.Abstracts;
+using BaseLib.Patches.UI;
 using Godot;
 using MegaCrit.Sts2.Core.Helpers;
+using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
 using Notira.Notira.Characters;
 using Notira.Notira.Extensions;
-using MegaCrit.Sts2.Core.Logging;
 
 namespace Notira.Notira.Characters;
 
 public sealed class NotiraCardPool : CustomCardPoolModel 
 {
     public override string Title => Notira.CharacterId; //This is not a display name.
-    //public override string EnergyColorName => Notira.CharacterId;
 
+ 
 
     public override string BigEnergyIconPath => "res://Notira/Images/Charui/big_energy.png";
-    public override  string TextEnergyIconPath => "res://Notira/Images/Charui/text_energy.png";
+    public override string TextEnergyIconPath => "res://Notira/Images/Charui/text_energy.png";
 
 
 

@@ -2,6 +2,7 @@ using MegaCrit.Sts2.Core.CardSelection;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
@@ -35,15 +36,16 @@ public class  Savior() : NotiraCard(
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-         await PowerCmd.Apply<RitualPower>(Owner.Creature, DynamicVars["RITUAL"].BaseValue, Owner.Creature, this);
+         await PowerCmd.Apply<RitualPower>(choiceContext, Owner.Creature, DynamicVars["RITUAL"].BaseValue, Owner.Creature, this);
         isUsed = true;
 
 
     }
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
-    {   if (isUsed)
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
+    {
+      if (isUsed)
         {
-            await PowerCmd.Apply<DexterityPower>(Owner.Creature, DynamicVars.Dexterity.BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<DexterityPower>(null, Owner.Creature, DynamicVars.Dexterity.BaseValue, Owner.Creature, this);
         }
     }
   

@@ -59,7 +59,7 @@ public sealed class RupekariDead : BitterChoiceOptionCard
                  .TargetingAllOpponents(CombatState)
                  .Execute(choiceContext);
         CardModel card = base.CombatState.CreateCard<Burn>(base.Owner);
-        CardCmd.PreviewCardPileAdd(await CardPileCmd.AddGeneratedCardToCombat(card, PileType.Hand, addedByPlayer: true));
+        CardCmd.PreviewCardPileAdd(await CardPileCmd.AddGeneratedCardToCombat(card, PileType.Hand,base.Owner ));
        
 
 

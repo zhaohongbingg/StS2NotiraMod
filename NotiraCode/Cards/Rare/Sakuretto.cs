@@ -52,12 +52,12 @@ public class Sakuretto() : NotiraCard(1,
 		}
 		else
 		{
-			await PowerCmd.Apply<TantiePower>(cardPlay.Target, DynamicVars["Tantie"].BaseValue, Owner.Creature, this);
+			await PowerCmd.Apply<TantiePower>(choiceContext, cardPlay.Target, DynamicVars["Tantie"].BaseValue, Owner.Creature, this);
 		}
 	}
 
 	protected override void OnUpgrade()
 	{
-		base.DynamicVars.Block.UpgradeValueBy(3);
+		AddKeyword(CardKeyword.Retain);
 	}
 }

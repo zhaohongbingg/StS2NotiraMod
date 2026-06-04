@@ -31,7 +31,7 @@ public sealed class LightOrb : NotiraPower
 
 
    
-    public override async Task AfterPowerAmountChanged(PowerModel power, decimal amount, Creature applier, CardModel cardSource)
+    public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature applier, CardModel cardSource)
     {
         if (this.Amount >= 13)
         {
@@ -43,7 +43,7 @@ public sealed class LightOrb : NotiraPower
             await CardPileCmd.AddGeneratedCardsToCombat(
                 cards,
                 PileType.Hand,
-                addedByPlayer: true
+                base.Owner.Player
             );
             await PowerCmd.Remove(this);
         }

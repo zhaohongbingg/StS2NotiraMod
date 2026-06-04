@@ -31,8 +31,8 @@ public class  Rance() : NotiraCard(
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<KichikuPower>(Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<RancePower>(Owner.Creature, DynamicVars["Rance"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<RancePower>(choiceContext, Owner.Creature, DynamicVars["Rance"].BaseValue, Owner.Creature, this);
 
     }
     protected override void OnUpgrade()

@@ -29,7 +29,7 @@ public class TheSongofSaya() : NotiraCard(1, CardType.Power, CardRarity.Uncommon
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<SayaPower>(base.Owner.Creature, base.DynamicVars["SayaPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<SayaPower>(choiceContext, base.Owner.Creature, base.DynamicVars["SayaPower"].BaseValue, base.Owner.Creature, this);
     }
     protected override void OnUpgrade()
     {

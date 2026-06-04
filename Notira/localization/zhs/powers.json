@@ -41,8 +41,8 @@
 	"NOTIRA-TAUNT_POWERS.description": "队友受伤减少90%",
 	"NOTIRA-TAUNT_POWERS.smartDescription": "队友受伤减少90%",
 	"NOTIRA-TAUNT_POWERS.title": "优先攻击",
-	"NOTIRA-RANCE_POWER.description": "鬼畜不再掉血，免疫负面效果",
-	"NOTIRA-RANCE_POWER.smartDescription": "鬼畜不再掉血，免疫负面效果,造成鬼畜倍数的伤害",
+	"NOTIRA-RANCE_POWER.description": "鬼畜不再掉血,造成鬼畜一半倍率的伤害",
+	"NOTIRA-RANCE_POWER.smartDescription": "鬼畜不再掉血,造成鬼畜一半倍率的伤害",
 	"NOTIRA-RANCE_POWER.title": "鬼畜王",
 	"NOTIRA-AUG_POWER.description": "",
 	"NOTIRA-AUG_POWER.smartDescription": "回合结束获得额外金币",
@@ -94,6 +94,12 @@
 	"NOTIRA-COMBO.title": "系列作",
 	"SAVIOR_POWER.description": "每回合获得一层力量,一层敏捷",
 	"SAVIOR_POWER.smartDescription": "每回合获得一层力量,一层敏捷",
-	"SAVIOR_POWER.title": "救世主"
-}
+	"SAVIOR_POWER.title": "救世主",
+	"NOTIRA-SAKURA_MOYO_POWER.description": "临时增加最大生命值",
+	"NOTIRA-SAKURA_MOYO_POWER.smartDescription": "临时增加最大生命值",
+	"NOTIRA-SAKURA_MOYO_POWER.title": "临时生命",
+	"NOTIRA-STEINSGATE.description": "在本回合内如果死亡则恢复生命",
+	"NOTIRA-STEINSGATE.smartDescription": "在本回合内如果死亡则恢复生命",
+	"NOTIRA-STEINSGATE.title": "欺骗世界"
 
+}

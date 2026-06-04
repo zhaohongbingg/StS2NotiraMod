@@ -54,6 +54,7 @@ public class Huzimao : NotiraRelics
         hashSet2.Remove(RoomType.Shop);      
         hashSet2.Remove(RoomType.Elite);
         hashSet2.Remove(RoomType.Boss);
+        hashSet2.Remove(RoomType.Event);
 
         return hashSet2;
     }

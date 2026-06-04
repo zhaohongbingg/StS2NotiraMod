@@ -39,7 +39,7 @@ public class Sacle() : NotiraCard(1,
 		{
 			count += item.Amount;
 		}
-		await PowerCmd.Apply<StrengthPower>(Owner.Creature, count*2, Owner.Creature, null);
+		await PowerCmd.Apply<StrengthPower>(choiceContext, Owner.Creature, count*2, Owner.Creature, null);
 	}
 
 	

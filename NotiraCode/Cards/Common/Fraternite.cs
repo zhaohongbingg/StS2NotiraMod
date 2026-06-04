@@ -37,7 +37,7 @@ public class Fraternite() : NotiraCard(
     {
 
         await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, cardPlay);
-        await PowerCmd.Apply<KichikuPower>(Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this);
 
 
     }

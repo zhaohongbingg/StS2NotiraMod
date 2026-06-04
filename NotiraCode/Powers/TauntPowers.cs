@@ -1,4 +1,4 @@
-
+/*
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
@@ -26,7 +26,7 @@ public sealed class TauntPower : NotiraPower
         {
             if (item.IsAlive && item.IsPlayer && item != base.Owner)
             {
-                await PowerCmd.Apply<TauntPower>(item, base.Amount, base.Owner, null);
+                await PowerCmd.Apply<TauntPower>(, item, base.Amount, base.Owner, null);
             }
         }
     }
@@ -43,4 +43,4 @@ public sealed class TauntPower : NotiraPower
         }
         return 2.5m;
     }
-}
+}*/

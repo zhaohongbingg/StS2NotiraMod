@@ -33,7 +33,7 @@ public class SDB() : NotiraCard(2,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<SDBPower>(Owner.Creature, DynamicVars["SDB"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<SDBPower>(choiceContext, Owner.Creature, DynamicVars["SDB"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

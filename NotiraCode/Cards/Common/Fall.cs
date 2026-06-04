@@ -43,7 +43,7 @@ public class Fall() : NotiraCard(1, CardType.Skill, CardRarity.Common, TargetTyp
         {
             await CardCmd.Exhaust(choiceContext, cardModel);
         }
-        await PowerCmd.Apply<XPoint>(base.Owner.Creature, DynamicVars["XPoint"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, base.Owner.Creature, DynamicVars["XPoint"].BaseValue, base.Owner.Creature, this);
 
     }
   

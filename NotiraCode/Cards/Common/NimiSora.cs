@@ -39,8 +39,8 @@ public class NimiSora() : NotiraCard(2, CardType.Skill, CardRarity.Uncommon, Tar
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<XPoint>(Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<BufferPower>(base.Owner.Creature, base.DynamicVars["BufferPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<BufferPower>(choiceContext, base.Owner.Creature, base.DynamicVars["BufferPower"].BaseValue, base.Owner.Creature, this);
     }
     protected override void OnUpgrade()
     {

@@ -17,6 +17,8 @@ using Notira.Notira.Keywords;
 using Notira.Notira.Powers;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using static Godot.HttpRequest;
+ 
 
 namespace Notira.Notira.Cards;
 
@@ -34,9 +36,9 @@ public class ChronoBox() : NotiraCard(0, CardType.Attack, CardRarity.Uncommon, T
 };
     public override IEnumerable<CardKeyword> CanonicalKeywords =>new CardKeyword[] { NotiraKeyWords.Gift };
 
-
+    private bool isUsed= false;
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
-    {
+    {    isUsed = true;
         if (base.Owner.HasPower<KichikuPower>())
         {
             int a=base.Owner.Creature.GetPowerAmount<KichikuPower>();
@@ -44,12 +46,14 @@ public class ChronoBox() : NotiraCard(0, CardType.Attack, CardRarity.Uncommon, T
                 .WithHitCount(a).FromCard(this)
                 .Targeting(cardPlay.Target)
                 .Execute(choiceContext);
-            int unblockedHits = attackCommand.Results
-             .Count(r => r.UnblockedDamage > 0);
+            IEnumerable<DamageResult> allResults = attackCommand.Results.SelectMany(list => list);
+
+            int unblockedHits = allResults
+             .Count(result => result.UnblockedDamage > 0);
 
             if (unblockedHits > 0)
             {
-                await PowerCmd.Apply<BloodPower>(cardPlay.Target, unblockedHits, null, this);
+                await PowerCmd.Apply<BloodPower>(choiceContext, cardPlay.Target, unblockedHits, null, this);
             }
         }
         else
@@ -59,7 +63,7 @@ public class ChronoBox() : NotiraCard(0, CardType.Attack, CardRarity.Uncommon, T
         }
        
     }
-
+  
     protected override void OnUpgrade()
     {
        base.DynamicVars.Damage.UpgradeValueBy(3m);

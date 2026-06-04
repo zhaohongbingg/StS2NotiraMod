@@ -25,7 +25,7 @@ public sealed class ClannadPower : NotiraPower
         return base.Owner.HasPower<LightOrb>() && base.Owner.GetPower<LightOrb>().Amount > 13;
     }
 
-    public override async Task BeforeHandDraw(Player player, PlayerChoiceContext choiceContext, CombatState combatState)
+    public override async Task BeforeHandDraw(Player player, PlayerChoiceContext choiceContext, ICombatState combatState)
     {
         if (player != base.Owner.Player)
         {
@@ -45,7 +45,7 @@ public sealed class ClannadPower : NotiraPower
                 CardCmd.ApplyKeyword(array[num] = CardFactory.GetDistinctForCombat(player, readOnlyList, 1, combatCardGeneration).FirstOrDefault(), CardKeyword.Exhaust);
             }
             Flash();
-            await CardPileCmd.AddGeneratedCardsToCombat(array, PileType.Hand, addedByPlayer: true);
+            await CardPileCmd.AddGeneratedCardsToCombat(array, PileType.Hand, base.Owner.Player);
         }
     }
 }

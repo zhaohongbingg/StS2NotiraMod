@@ -3,6 +3,7 @@ using Godot;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.Factories;
@@ -14,6 +15,7 @@ using MegaCrit.Sts2.Core.Rewards;
 using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.ValueProps;
 using Notira.Notira.Powers;
+ 
 namespace Notira.Notira.Powers;
 
 
@@ -32,7 +34,7 @@ public sealed class SakuraPower : NotiraPower
 
         //橙色血条
         yield return new HealthBarForecastSegment(
-            Amount:  (int)(base.Owner.MaxHp * 0.15),
+            Amount:  (int)(base.Owner.MaxHp * 0.1),
             Color: new Color("#FA6600"), //数字颜色
             Direction: HealthBarForecastDirection.FromRight, //从右往左
             Order: 0,
@@ -45,7 +47,7 @@ public sealed class SakuraPower : NotiraPower
 
 
 
-    public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side != base.Owner.Side)
             return;
@@ -53,7 +55,7 @@ public sealed class SakuraPower : NotiraPower
         if (!base.Owner.IsAlive)
             return;
 
-        decimal DrawHp = (decimal)(base.Owner.MaxHp * 0.15);
+        decimal DrawHp = (decimal)(base.Owner.MaxHp * 0.1);
 
         await CreatureCmd.Damage(
         new ThrowingPlayerChoiceContext(),
@@ -65,7 +67,7 @@ public sealed class SakuraPower : NotiraPower
     );
     }
 
-           public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+           public override async Task   AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
         if (side == CombatSide.Enemy)
         {

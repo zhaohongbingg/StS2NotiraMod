@@ -35,7 +35,7 @@ public class HimenoTowa(): NotiraCard(3, CardType.Power, CardRarity.Rare, Target
     };
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<ArtifactPower>(base.Owner.Creature, base.DynamicVars["ArtifactPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<ArtifactPower>(choiceContext, base.Owner.Creature, base.DynamicVars["ArtifactPower"].BaseValue, base.Owner.Creature, this);
     }
     protected override void OnUpgrade()
     {

@@ -45,8 +45,8 @@ public class RoutePureLove() : NotiraCard(0, CardType.Skill, CardRarity.Token, T
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         
-            await PowerCmd.Apply<XPoint>(Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<PurelovePower>(Owner.Creature, DynamicVars["Purelove"].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<PurelovePower>(choiceContext, Owner.Creature, DynamicVars["Purelove"].BaseValue, Owner.Creature, this);
             
        
     }

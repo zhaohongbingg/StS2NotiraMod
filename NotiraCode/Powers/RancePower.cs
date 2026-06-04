@@ -34,7 +34,7 @@ public sealed class RancePower :NotiraPower
 
     public override async Task AfterPlayerTurnStartEarly(PlayerChoiceContext choiceContext, Player player)
     {
-         await PowerCmd.Apply<ArtifactPower>(Owner, DynamicVars["Artfact"].BaseValue, Owner,null);
+         await PowerCmd.Apply<ArtifactPower>(choiceContext, Owner, DynamicVars["Artfact"].BaseValue, Owner,null);
     }
     public override decimal ModifyDamageMultiplicative(Creature target, decimal amount, ValueProp props, Creature dealer, CardModel cardSource)
     {      
@@ -56,7 +56,7 @@ public sealed class RancePower :NotiraPower
             return 1m;
         }
         decimal Edamage = dealer.GetPowerAmount<KichikuPower>();
-        return 1m + Edamage;
+        return 1+Edamage*0.5m;
 
     }
 }

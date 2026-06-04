@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 namespace Notira.Notira.Cards;
 
 
-public class  Beatrice(): NotiraCard(3,CardType.Skill,CardRarity.Rare,TargetType.Self)
+public class  Beatrice(): NotiraCard(4,CardType.Skill,CardRarity.Rare,TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(10)];
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
@@ -30,7 +30,7 @@ public class  Beatrice(): NotiraCard(3,CardType.Skill,CardRarity.Rare,TargetType
         int count = base.Owner.PlayerCombatState.Hand.Cards.Count;
         decimal count2 = Math.Max(0m, baseValue - (decimal)count);
         await CardPileCmd.Draw(choiceContext, count2, base.Owner);
-        await PowerCmd.Apply<Goldmajou>(base.Owner.Creature, 1, base.Owner.Creature, this);}
+        await PowerCmd.Apply<Goldmajou>(choiceContext, base.Owner.Creature, 1, base.Owner.Creature, this);}
     protected override void OnUpgrade()
     {
        base.EnergyCost.UpgradeBy(-1);

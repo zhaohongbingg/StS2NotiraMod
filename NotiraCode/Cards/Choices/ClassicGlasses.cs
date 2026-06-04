@@ -41,7 +41,7 @@ public class ClassicGlasses() : NotiraCard(0, CardType.Attack, CardRarity.Token,
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CommonActions.CardAttack(this, cardPlay.Target).Execute(choiceContext);
-        await PowerCmd.Apply<XPoint>(Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

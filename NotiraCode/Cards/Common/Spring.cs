@@ -42,7 +42,7 @@ public class Spring() : NotiraCard(1, CardType.Skill, CardRarity.Common, TargetT
 
 
     }
-    public override async Task BeforeHandDraw(Player player, PlayerChoiceContext choiceContext, CombatState combatState)
+    public override async Task BeforeHandDraw(Player player, PlayerChoiceContext choiceContext, ICombatState combatState)
     {
         CardPile? pile = base.Pile;
         if (pile != null && pile.Type == PileType.Exhaust && player == base.Owner)

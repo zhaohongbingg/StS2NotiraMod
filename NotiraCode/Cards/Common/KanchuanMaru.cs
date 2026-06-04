@@ -26,7 +26,7 @@ public class  Kanchuanmaru():NotiraCard(1,CardType.Attack,CardRarity.Common,Targ
         new RepeatVar(1),
         new CalculationBaseVar(0m),
          new ExtraDamageVar(1m),
-        new CalculatedDamageVar(ValueProp.Move).WithMultiplier((CardModel card, Creature? _) => card.Owner.Creature.GetPowerAmount<XPoint>()),
+        new CalculatedDamageVar(ValueProp.Move).WithMultiplier((CardModel card, Creature? _) => card.Owner.Creature.GetPowerAmount<XPoint>()*0.5m),
     };
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
        HoverTipFactory.FromPower<XPoint>()

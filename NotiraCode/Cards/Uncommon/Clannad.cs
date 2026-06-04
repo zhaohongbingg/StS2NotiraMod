@@ -36,7 +36,7 @@ public class Clannad() : NotiraCard(1, CardType.Power, CardRarity.Common, Target
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<ClannadPower>(Owner.Creature, DynamicVars["CL"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<ClannadPower>(choiceContext, Owner.Creature, DynamicVars["CL"].BaseValue, Owner.Creature, this);
     }
 
 

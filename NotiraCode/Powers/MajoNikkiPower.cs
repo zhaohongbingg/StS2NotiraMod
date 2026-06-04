@@ -22,14 +22,16 @@ using System.Drawing;
 namespace Notira.Notira.Powers;
 
 
-public   class MajoNikkiPower : NotiraPower
+public class MajoNikkiPower : NotiraPower
 {
     public override PowerType Type => PowerType.Debuff;   // 减力量是 Debuff
     public override PowerStackType StackType => PowerStackType.Counter;
     public override bool ShouldReceiveCombatHooks => true;
+    public PowerModel InternallyAppliedPower => ModelDb.Power<StrengthPower>();
+    protected virtual bool IsPositive => true;
 
-    // 你需要根据实际情况实现这个属性，例如从构造函数传入
-    public  AbstractModel OriginModel => ModelDb.Card<MajoNikki>();
+
+
 
     private int Sign => -1;   // 固定为负，表示减力量
 
@@ -42,32 +44,41 @@ public   class MajoNikkiPower : NotiraPower
 
     public override async Task BeforeApplied(Creature target, decimal amount, Creature? applier, CardModel? cardSource)
     {
-        
         if (_shouldIgnoreNextInstance)
-            _shouldIgnoreNextInstance =true;
+        {
+            _shouldIgnoreNextInstance = false;
+        }
         else
-            await PowerCmd.Apply<StrengthPower>(target, Sign * amount, applier, cardSource, silent: true);
-        Log.Info($"BeforeApplied called:amount{amount}");
+        {
+            await PowerCmd.Apply<StrengthPower>(null,target, (decimal)Sign * amount, applier, cardSource, silent: true);
+        }
+        Log.Info($"BeforeApplied called: amount {amount}");
     }
-
-
-
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature applier, CardModel cardSource)
     {
+
+        if (!(amount == (decimal)base.Amount) && power == this)
+        {
+            if (_shouldIgnoreNextInstance)
+            {
+                _shouldIgnoreNextInstance = false;
+            }
+            else
+            {
+                await PowerCmd.Apply<StrengthPower>(choiceContext, base.Owner, (decimal)Sign * amount, applier, cardSource, silent: true);
+            }
+        }
+        Log.Info($"AfterPowerAmountChanged called: amount {amount}");
+    }
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
+    {
+
         if (side == Owner.Side)
         {
             Flash();
             await PowerCmd.Remove(this);
-            await PowerCmd.Apply<StrengthPower>(Owner, -Sign * Amount, Owner, null);
+            await PowerCmd.Apply<StrengthPower>(choiceContext, Owner, -Sign * Amount, Owner, null);
+            Log.Info($"AfterTurnEnd restored strength: {-Sign * Amount}");
         }
-        Log.Info($"AfterTurnEnd called:amount{-Sign * Amount}");
     }
-
-
-
-
 }
-
-
-
-

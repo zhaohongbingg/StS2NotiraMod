@@ -1,0 +1,1182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coding\\sts\\Notira-beta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\huzimao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\huzimao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notira\\localization\\zhs\\cards.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notira\\localization\\zhs\\cards.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\rare\\nienohakoniwa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\rare\\nienohakoniwa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\majonikkipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\majonikkipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\euthanasiapower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\euthanasiapower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\euthanasiapowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\euthanasiapowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\rare\\euphoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\rare\\euphoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\majonikki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\majonikki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\rupekarialive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\rupekarialive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\steinsgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\steinsgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\feimenggaoshou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\feimenggaoshou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\steinsgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\steinsgate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notira\\localization\\zhs\\powers.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notira\\localization\\zhs\\powers.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BaiduNetdiskDownload\\\u58542\u89E3\u5305\\Slay the Spire 2\\Slay the Spire 2\\src\\Core\\Models\\Powers\\RoyaltiesPower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\coding\\sts\\Notira-main\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\sakuramoyupower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\sakuramoyupower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\sakurapower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\sakurapower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\common\\aug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\common\\aug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notira\\localization\\zhs\\relics.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notira\\localization\\zhs\\relics.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\suzakuintsubaki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\suzakuintsubaki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\coding\\sts\\Notira-main\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\common\\sakuramoyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\common\\sakuramoyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\notiracard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\notiracard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\mushipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\mushipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\notirapatch\\nospinepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\notirapatch\\nospinepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\charaters\\notira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\charaters\\notira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\kexutian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\kexutian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\fatamorgananoyakata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\fatamorgananoyakata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\houkagocinderella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\houkagocinderella.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\tanteipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\tanteipower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\mdbpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\mdbpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\kichikupower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\kichikupower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\humanitypower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\humanitypower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\goldmajou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\goldmajou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\erewhompower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\erewhompower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\bloodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\bloodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\savior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\savior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\mangekyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\mangekyou.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\sorceress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\sorceress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\status\\failure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\status\\failure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\notirapower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\notirapower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\notirapatch\\animationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\notirapatch\\animationpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\notirapatch\\winpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\notirapatch\\winpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\ogisosetsuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\ogisosetsuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\toumakazusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\toumakazusa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\kisainote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\kisainote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\roaringtides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\roaringtides.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\luna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\luna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notira\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notira\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\chigasakiyura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\chigasakiyura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\euthanasia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\euthanasia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\notiratemporarystrengthpower .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\notiratemporarystrengthpower .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\notiratempower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\notiratempower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\rancepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\rancepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\common\\kanchuanmaru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\common\\kanchuanmaru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\rare\\whatcolorisyourattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\rare\\whatcolorisyourattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\rare\\sakuretto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\rare\\sakuretto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\kamimahodayikira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\kamimahodayikira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\common\\siguan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\common\\siguan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\uncommon\\chronobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\uncommon\\chronobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\choices\\bitterchoicecardbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\choices\\bitterchoicecardbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\saviorpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\saviorpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\tauntpowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\tauntpowers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\newbie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\newbie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\relics\\superior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\relics\\superior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\clannadpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\clannadpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\common\\himenotowa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\common\\himenotowa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\haisonshoujopower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\haisonshoujopower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\lightorb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\lightorb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\powers\\tauntpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\powers\\tauntpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\cards\\common\\spring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\cards\\common\\spring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|d:\\coding\\sts\\notira-beta\\notiracode\\abstract\\customcardcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11867BD8-D8C2-48C2-8AF1-012950A9ADF8}|Notira.csproj|solutionrelative:notiracode\\abstract\\customcardcardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Huzimao.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\Huzimao.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\Huzimao.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\Huzimao.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\Huzimao.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T02:05:14.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EuthanasiaPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\EuthanasiaPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\EuthanasiaPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\EuthanasiaPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\EuthanasiaPower.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:23:39.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EuthanasiaPowers.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\EuthanasiaPowers.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\EuthanasiaPowers.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\EuthanasiaPowers.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\EuthanasiaPowers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:28:39.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cards.json",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\Notira\\localization\\zhs\\cards.json",
+              "RelativeDocumentMoniker": "Notira\\localization\\zhs\\cards.json",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\Notira\\localization\\zhs\\cards.json",
+              "RelativeToolTip": "Notira\\localization\\zhs\\cards.json",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAAL8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-15T10:40:56.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Euphoria.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\Euphoria.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Rare\\Euphoria.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\Euphoria.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Rare\\Euphoria.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:16:07.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "STEINSGATE.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:37:09.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Steinsgate.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\Steinsgate.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\Steinsgate.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\Steinsgate.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\Steinsgate.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIA8wEEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:11:55.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "powers.json",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\Notira\\localization\\zhs\\powers.json",
+              "RelativeDocumentMoniker": "Notira\\localization\\zhs\\powers.json",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\Notira\\localization\\zhs\\powers.json",
+              "RelativeToolTip": "Notira\\localization\\zhs\\powers.json",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-15T10:40:34.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "STEINSGATE.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-main\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "RelativeDocumentMoniker": "..\\Notira-main\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-main\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "RelativeToolTip": "..\\Notira-main\\NotiraCode\\Cards\\Uncommon\\STEINSGATE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:10:52.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SakuraPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\SakuraPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\SakuraPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\SakuraPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\SakuraPower.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:22:24.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SakuraMoyuPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\SakuraMoyuPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\SakuraMoyuPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\SakuraMoyuPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\SakuraMoyuPower.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:59:48.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Aug.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\Aug.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Common\\Aug.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\Aug.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Common\\Aug.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvyIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:37:32.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MushiPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\MushiPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\MushiPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\MushiPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\MushiPower.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:42:58.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Notira.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Charaters\\Notira.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Charaters\\Notira.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Charaters\\Notira.cs",
+              "RelativeToolTip": "NotiraCode\\Charaters\\Notira.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T10:04:51.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FataMorgananoYakata.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\FataMorgananoYakata.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\FataMorgananoYakata.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\FataMorgananoYakata.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\FataMorgananoYakata.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADgvzQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:44:42.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TanteiPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\TanteiPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\TanteiPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\TanteiPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\TanteiPower.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADgvywAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:43:41.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KichikuPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\KichikuPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\KichikuPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\KichikuPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\KichikuPower.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADgvzcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:41:11.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Goldmajou.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\Goldmajou.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\Goldmajou.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\Goldmajou.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\Goldmajou.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvyQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:39:13.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BloodPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\BloodPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\BloodPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\BloodPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\BloodPower.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAvwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:37:59.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Savior.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Savior.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\Savior.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Savior.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\Savior.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:34:24.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MDBPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\MDBPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\MDBPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\MDBPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\MDBPower.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:15:17.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Sorceress.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\Sorceress.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\Sorceress.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\Sorceress.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\Sorceress.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADgvyUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:34:37.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "humanityPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\humanityPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\humanityPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\humanityPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\humanityPower.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:15:48.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "animationpatch.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\NotiraPatch\\animationpatch.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\NotiraPatch\\animationpatch.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\NotiraPatch\\animationpatch.cs",
+              "RelativeToolTip": "NotiraCode\\NotiraPatch\\animationpatch.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T16:28:10.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErewhomPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\ErewhomPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\ErewhomPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\ErewhomPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\ErewhomPower.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:15:59.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OgisoSetsuna.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\OgisoSetsuna.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\OgisoSetsuna.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\OgisoSetsuna.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\OgisoSetsuna.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:15:09.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Mangekyou.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\Mangekyou.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\Mangekyou.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\Mangekyou.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\Mangekyou.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvyAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:16:33.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Kisainote.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\Kisainote.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\Kisainote.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\Kisainote.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\Kisainote.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:14:51.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Failure.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Status\\Failure.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Status\\Failure.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Status\\Failure.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Status\\Failure.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:23:25.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "RoaringTides.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\RoaringTides.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\RoaringTides.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\RoaringTides.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\RoaringTides.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:14:32.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Winpatch.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\NotiraPatch\\Winpatch.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\NotiraPatch\\Winpatch.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\NotiraPatch\\Winpatch.cs",
+              "RelativeToolTip": "NotiraCode\\NotiraPatch\\Winpatch.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:10:38.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ToumaKazusa.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\ToumaKazusa.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\ToumaKazusa.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\ToumaKazusa.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\ToumaKazusa.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvx4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:15:35.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Luna.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Luna.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\Luna.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Luna.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\Luna.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:15:49.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MainFile.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\Notira\\MainFile.cs",
+              "RelativeDocumentMoniker": "Notira\\MainFile.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\Notira\\MainFile.cs",
+              "RelativeToolTip": "Notira\\MainFile.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAMwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:12:26.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChigasakiYura.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\ChigasakiYura.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\ChigasakiYura.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\ChigasakiYura.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\ChigasakiYura.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T12:15:25.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Euthanasia.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Euthanasia.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\Euthanasia.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Euthanasia.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\Euthanasia.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAASwDQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:38:12.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "NotiraTemporaryStrengthPower .cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\NotiraTemporaryStrengthPower .cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\NotiraTemporaryStrengthPower .cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\NotiraTemporaryStrengthPower .cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\NotiraTemporaryStrengthPower .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:43:12.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NotiraTempower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\NotiraTempower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\NotiraTempower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\NotiraTempower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\NotiraTempower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:29:29.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RancePower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\RancePower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\RancePower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\RancePower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\RancePower.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:26:12.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "KanchuanMaru.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\KanchuanMaru.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Common\\KanchuanMaru.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\KanchuanMaru.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Common\\KanchuanMaru.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T10:41:10.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Whatcolorisyourattribute.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\Whatcolorisyourattribute.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Rare\\Whatcolorisyourattribute.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\Whatcolorisyourattribute.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Rare\\Whatcolorisyourattribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:11:50.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Siguan.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\Siguan.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Common\\Siguan.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\Siguan.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Common\\Siguan.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAewCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:22:06.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "KamimahoDayikira.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\KamimahoDayikira.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\KamimahoDayikira.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\KamimahoDayikira.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\KamimahoDayikira.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAASwDcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:18:59.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ChronoBox.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\ChronoBox.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\ChronoBox.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\ChronoBox.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\ChronoBox.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAASwDAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:40:01.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "BitterChoiceCardBase.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\BitterChoiceCardBase.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\BitterChoiceCardBase.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\BitterChoiceCardBase.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\BitterChoiceCardBase.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4v0cAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:14:28.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SaviorPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\SaviorPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\SaviorPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\SaviorPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\SaviorPower.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:14:55.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TauntPowers.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\TauntPowers.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\TauntPowers.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\TauntPowers.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\TauntPowers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:14:41.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "superior.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\superior.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\superior.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\superior.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\superior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:30:27.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "newbie.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\newbie.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\newbie.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\newbie.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\newbie.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAnwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:31:44.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ClannadPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\ClannadPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\ClannadPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\ClannadPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\ClannadPower.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAawDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:36:30.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "HimenoTowa.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\HimenoTowa.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Common\\HimenoTowa.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\HimenoTowa.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Common\\HimenoTowa.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawCUAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:30:12.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "HaisonShoujoPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\HaisonShoujoPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\HaisonShoujoPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\HaisonShoujoPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\HaisonShoujoPower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:29:55.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "LightOrb.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\LightOrb.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\LightOrb.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\LightOrb.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\LightOrb.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAMwCMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:24:21.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "TauntPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\TauntPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\TauntPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\TauntPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\TauntPower.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:21:59.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Spring.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\Spring.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Common\\Spring.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\Spring.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Common\\Spring.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAawC8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:16:18.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "CustomCardCardPool.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Abstract\\CustomCardCardPool.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Abstract\\CustomCardCardPool.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Abstract\\CustomCardCardPool.cs",
+              "RelativeToolTip": "NotiraCode\\Abstract\\CustomCardCardPool.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:16:05.672Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 216,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RupekariAlive.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\RupekariAlive.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Choices\\RupekariAlive.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Choices\\RupekariAlive.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Choices\\RupekariAlive.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T10:22:12.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MajoNikkiPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\MajoNikkiPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\MajoNikkiPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\MajoNikkiPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\MajoNikkiPower.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:15:35.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MajoNikki.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\MajoNikki.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\MajoNikki.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\MajoNikki.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\MajoNikki.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T11:13:11.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NienoHakoniwa.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\NienoHakoniwa.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Rare\\NienoHakoniwa.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\NienoHakoniwa.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Rare\\NienoHakoniwa.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:33:46.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoyaltiesPower.cs",
+              "DocumentMoniker": "D:\\BaiduNetdiskDownload\\\u58542\u89E3\u5305\\Slay the Spire 2\\Slay the Spire 2\\src\\Core\\Models\\Powers\\RoyaltiesPower.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\BaiduNetdiskDownload\\\u58542\u89E3\u5305\\Slay the Spire 2\\Slay the Spire 2\\src\\Core\\Models\\Powers\\RoyaltiesPower.cs",
+              "ToolTip": "D:\\BaiduNetdiskDownload\\\u58542\u89E3\u5305\\Slay the Spire 2\\Slay the Spire 2\\src\\Core\\Models\\Powers\\RoyaltiesPower.cs",
+              "RelativeToolTip": "..\\..\\..\\BaiduNetdiskDownload\\\u58542\u89E3\u5305\\Slay the Spire 2\\Slay the Spire 2\\src\\Core\\Models\\Powers\\RoyaltiesPower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:38:11.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Feimenggaoshou.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-main\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "RelativeDocumentMoniker": "..\\Notira-main\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-main\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "RelativeToolTip": "..\\Notira-main\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:30:27.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SuzakuinTsubaki.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\SuzakuinTsubaki.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\SuzakuinTsubaki.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\SuzakuinTsubaki.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\SuzakuinTsubaki.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:25:59.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Feimenggaoshou.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Uncommon\\Feimenggaoshou.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAApwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:11:37.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "relics.json",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\Notira\\localization\\zhs\\relics.json",
+              "RelativeDocumentMoniker": "Notira\\localization\\zhs\\relics.json",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\Notira\\localization\\zhs\\relics.json",
+              "RelativeToolTip": "Notira\\localization\\zhs\\relics.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-22T05:25:32.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SakuraMoyu.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\SakuraMoyu.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Common\\SakuraMoyu.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Common\\SakuraMoyu.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Common\\SakuraMoyu.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T05:01:18.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotiraCard.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\NotiraCard.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\NotiraCard.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\NotiraCard.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\NotiraCard.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAArwEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:49:10.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NoSpinePatch.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\NotiraPatch\\NoSpinePatch.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\NotiraPatch\\NoSpinePatch.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\NotiraPatch\\NoSpinePatch.cs",
+              "RelativeToolTip": "NotiraCode\\NotiraPatch\\NoSpinePatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:47:27.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HoukagoCinderella.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\HoukagoCinderella.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\HoukagoCinderella.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\HoukagoCinderella.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\HoukagoCinderella.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T04:44:53.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NotiraPower.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\NotiraPower.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Powers\\NotiraPower.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Powers\\NotiraPower.cs",
+              "RelativeToolTip": "NotiraCode\\Powers\\NotiraPower.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:29:45.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "kexutian.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\kexutian.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Relics\\kexutian.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Relics\\kexutian.cs",
+              "RelativeToolTip": "NotiraCode\\Relics\\kexutian.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAApwCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T06:20:31.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Sakuretto.cs",
+              "DocumentMoniker": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\Sakuretto.cs",
+              "RelativeDocumentMoniker": "NotiraCode\\Cards\\Rare\\Sakuretto.cs",
+              "ToolTip": "D:\\coding\\sts\\Notira-beta\\NotiraCode\\Cards\\Rare\\Sakuretto.cs",
+              "RelativeToolTip": "NotiraCode\\Cards\\Rare\\Sakuretto.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T09:27:57.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

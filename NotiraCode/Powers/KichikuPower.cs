@@ -48,8 +48,9 @@ public sealed class KichikuPower : NotiraPower
             await CreatureCmd.Damage(choiceContext, base.Owner, damageVar.BaseValue, damageVar.Props, base.Owner, null);
         }
     }
-
-    public override Task AfterTurnEndLate(PlayerChoiceContext choiceContext, CombatSide side)
+ 
+    
+    public override Task  AfterSideTurnEndLate(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
         triggeredThisTurn = false;
         return Task.CompletedTask;
@@ -68,7 +69,7 @@ public sealed class KichikuPower : NotiraPower
 
 
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task   AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
         if (side == CombatSide.Enemy)
         {

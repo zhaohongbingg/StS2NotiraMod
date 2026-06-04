@@ -35,7 +35,7 @@ public sealed class RupekariAlive : BitterChoiceOptionCard
     public override bool CanBeGeneratedInCombat => false;
 
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]{
-        new  DynamicVar("Strength",-2m),
+        new PowerVar<StrengthPower>(-2),
         new EnergyVar(2)      
         };
 
@@ -51,7 +51,7 @@ public sealed class RupekariAlive : BitterChoiceOptionCard
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<StrengthPower>(base.Owner.Creature, DynamicVars.Power<StrengthPower>().IntValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<StrengthPower>(choiceContext, base.Owner.Creature, DynamicVars.Strength.IntValue, base.Owner.Creature, this);
         await  PlayerCmd.GainEnergy(DynamicVars.Energy.IntValue,base.Owner);
 
 

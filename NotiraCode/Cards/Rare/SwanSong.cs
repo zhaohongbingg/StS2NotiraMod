@@ -35,7 +35,7 @@ public class SwanSong() : NotiraCard(0, CardType.Power, CardRarity.Rare, TargetT
 
         await CardPileCmd.Draw(choiceContext, base.DynamicVars.Cards.IntValue, base.Owner);
         await PlayerCmd.GainEnergy(base.DynamicVars.Energy.IntValue, base.Owner);
-        await PowerCmd.Apply<HumanityPower>(Owner.Creature, DynamicVars["Humanity"].BaseValue, Owner.Creature,null);
+        await PowerCmd.Apply<HumanityPower>(choiceContext, Owner.Creature, DynamicVars["Humanity"].BaseValue, Owner.Creature,null);
     }
     protected override void OnUpgrade()
     {

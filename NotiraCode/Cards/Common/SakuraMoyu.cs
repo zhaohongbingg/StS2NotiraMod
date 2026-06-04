@@ -26,19 +26,21 @@ public class SakuraMoyu() : NotiraCard(
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
         new DynamicVar("XPoint",20m),
-        new SummonVar(18)
-        
+          new DynamicVar("SakuraMoyo", 18m)
+
 
     };
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-   HoverTipFactory.FromPower<XPoint>()
+   HoverTipFactory.FromPower<XPoint>(),
+          HoverTipFactory.FromPower<SakuraMoyoPower>()
 
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
 
-        await OstyCmd.Summon(choiceContext, base.Owner, base.DynamicVars.Summon.BaseValue, this);
-        await PowerCmd.Apply<XPoint>(Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+   
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<SakuraMoyoPower>(choiceContext, Owner.Creature, DynamicVars["SakuraMoyo"].BaseValue, Owner.Creature, this);
 
 
     }

@@ -43,7 +43,7 @@ public class Eden() : NotiraCard(1,
         
         foreach (PowerModel item in originalDebuffs)
         {
-            await PowerCmd.Apply<DexterityPower>(Owner.Creature,base.DynamicVars.Dexterity.BaseValue, Owner.Creature, null);
+            await PowerCmd.Apply<DexterityPower>(choiceContext, Owner.Creature,base.DynamicVars.Dexterity.BaseValue, Owner.Creature, null);
         }
        
     }

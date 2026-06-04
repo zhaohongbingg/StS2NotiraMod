@@ -32,8 +32,8 @@ public sealed class  SaviorPower : PowerModel
         if (cardPlay.Card.Owner == base.Owner.Player && cardPlay.Card.VisualCardPool.IsColorless)
         {
             Flash();
-            await PowerCmd.Apply<StrengthPower>(base.Owner, base.Amount, base.Owner, null);
-            await PowerCmd.Apply<StrengthPower>(base.Owner, base.Amount, base.Owner, null);
+            await PowerCmd.Apply<StrengthPower>(context, base.Owner, base.Amount, base.Owner, null);
+            await PowerCmd.Apply<StrengthPower>(context, base.Owner, base.Amount, base.Owner, null);
         }
     }
 }

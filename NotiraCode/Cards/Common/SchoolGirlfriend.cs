@@ -36,8 +36,8 @@ public class SchoolGirlfriend() : NotiraCard(1,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<XPoint>(Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<KichikuPower>(Owner.Creature, -DynamicVars["kichiku"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, Owner.Creature, -DynamicVars["kichiku"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

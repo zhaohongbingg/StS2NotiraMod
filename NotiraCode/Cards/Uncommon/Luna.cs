@@ -25,7 +25,7 @@ public class Luna() : NotiraCard(2, CardType.Skill, CardRarity.Uncommon, TargetT
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CreatureCmd.GainBlock(base.Owner.Creature, base.DynamicVars.Block, cardPlay);
-        await PowerCmd.Apply<BlurPower>(base.Owner.Creature, base.DynamicVars["Blur"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<BlurPower>(choiceContext, base.Owner.Creature, base.DynamicVars["Blur"].BaseValue, base.Owner.Creature, this);
         SfxHelper.Play("res://Notira/music/luna.ogg");
 
 

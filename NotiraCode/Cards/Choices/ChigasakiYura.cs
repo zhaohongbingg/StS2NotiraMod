@@ -36,7 +36,7 @@ public sealed class ChigasakiYra: BitterChoiceOptionCard
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await PlayerCmd.GainEnergy(base.DynamicVars.Energy.IntValue, base.Owner);
-        await PowerCmd.Apply<MindRotPower>(Owner.Creature, DynamicVars["MindRotPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<MindRotPower>(choiceContext, Owner.Creature, DynamicVars["MindRotPower"].BaseValue, Owner.Creature, this);
          
 
     }

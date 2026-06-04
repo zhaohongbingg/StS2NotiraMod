@@ -33,7 +33,7 @@ public class Erewhom() : NotiraCard(1,
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<ErewhomPower>(Owner.Creature, DynamicVars["erewhom"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<ErewhomPower>(choiceContext, Owner.Creature, DynamicVars["erewhom"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

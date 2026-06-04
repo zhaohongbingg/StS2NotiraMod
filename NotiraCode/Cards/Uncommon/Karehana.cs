@@ -31,7 +31,7 @@ public class  Karehan() : NotiraCard(1,
     {
         foreach (Creature hittableEnemy in base.CombatState.HittableEnemies)
         {
-            await PowerCmd.Apply<SakuraPower>(hittableEnemy, DynamicVars["Sakura"].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<SakuraPower>(choiceContext, hittableEnemy, DynamicVars["Sakura"].BaseValue, Owner.Creature, this);
         }
     }
 

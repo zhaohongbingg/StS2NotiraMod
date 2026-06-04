@@ -18,8 +18,8 @@ public class NotiraSuperior : NotiraRelics
         if (room is CombatRoom)
         {
             Flash();
-            await PowerCmd.Apply<Notira.Powers.XPoint>(Owner.Creature, 50m, Owner.Creature, null);
-            await PowerCmd.Apply<Notira.Powers.KichikuPower>(Owner.Creature, 3m, Owner.Creature, null);
+            await PowerCmd.Apply<Notira.Powers.XPoint>(  null,Owner.Creature, 50m, Owner.Creature, null);
+            await PowerCmd.Apply<Notira.Powers.KichikuPower>(  null,Owner.Creature, 3m, Owner.Creature, null);
         }
 
     }

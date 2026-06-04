@@ -53,7 +53,7 @@ public sealed class Cutthroat() : NotiraCard(2, CardType.Skill, CardRarity.Uncom
                                            select c;
         foreach (Creature item in enumerable)
         {
-            await PowerCmd.Apply<KichikuPower>(item, base.DynamicVars["Kichiku"].BaseValue, base.Owner.Creature, this);
+            await PowerCmd.Apply<KichikuPower>(choiceContext, item, base.DynamicVars["Kichiku"].BaseValue, base.Owner.Creature, this);
         }
     }
     protected override void OnUpgrade()

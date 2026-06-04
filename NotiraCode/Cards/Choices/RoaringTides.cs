@@ -41,7 +41,7 @@ public sealed class RoaringTides : BitterChoiceOptionCard
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-    await PowerCmd.Apply<RoaringTidesPower>(Owner.Creature, DynamicVars["RoaringTidesPower"].BaseValue,Owner.Creature,this);
+    await PowerCmd.Apply<RoaringTidesPower>(choiceContext, Owner.Creature, DynamicVars["RoaringTidesPower"].BaseValue,Owner.Creature,this);
         SfxHelper.Play("res://Notira/music/chaoming.ogg");
 
 

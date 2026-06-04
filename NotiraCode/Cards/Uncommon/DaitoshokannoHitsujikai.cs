@@ -29,7 +29,7 @@ public class DaitoshokannoHitsujikai() : NotiraCard(1,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<LibPower>(Owner.Creature, DynamicVars["Lib"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<LibPower>(choiceContext, Owner.Creature, DynamicVars["Lib"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

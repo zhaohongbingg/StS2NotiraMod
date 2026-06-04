@@ -1,3 +1,4 @@
+using BaseLib.Abstracts;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -23,7 +24,7 @@ public sealed class EuthanasiaPowers : NotiraPower
     {
         if (dealer == base.Owner && props.IsPoweredAttack())
         {
-            await PowerCmd.Apply<EuthanasiaPower>(target, base.Amount, base.Owner, null);
+            await PowerCmd.Apply<EuthanasiaPower>(choiceContext, target, base.Amount, base.Owner, null);
         }
     }
 }

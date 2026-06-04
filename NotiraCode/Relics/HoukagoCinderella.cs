@@ -11,6 +11,7 @@ using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.Runs;
 using System.Threading.Tasks;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 
 
 namespace Notira.Notira.Relics;
@@ -23,7 +24,8 @@ public class HoukagoCinderella : NotiraRelics
 
 {
     public override RelicRarity Rarity => RelicRarity.Ancient;
-    public override async Task BeforeTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+ 
+    public override async Task BeforeSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
         if (side != base.Owner.Creature.Side) return;
 

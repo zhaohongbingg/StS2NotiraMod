@@ -38,7 +38,7 @@ public class SisterJuliah() : NotiraCard(1, CardType.Skill, CardRarity.Uncommon,
             {
                 continue;
             }
-            await PowerCmd.Apply<SakuraPower>(enemy, new DynamicVar("Sakura", a).BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<SakuraPower>(choiceContext, enemy, new DynamicVar("Sakura", a).BaseValue, Owner.Creature, this);
 
 
         }

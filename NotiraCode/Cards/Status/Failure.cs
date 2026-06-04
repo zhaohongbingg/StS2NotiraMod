@@ -22,19 +22,7 @@ public sealed class Failure : NotiraCard
         : base(-1, CardType.Status, CardRarity.Status, TargetType.None)
     {
     }
-    public override Task BeforeTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
-    {
-        if (side != CombatSide.Player)
-        {
-            return Task.CompletedTask;
-        }
-        if (base.Pile.Type != PileType.Hand)
-        {
-            return Task.CompletedTask;
-        }
-        CardsInHand = base.Pile.Cards.Count;
-        return Task.CompletedTask;
-    }
+
     private int CardsInHand
     {
         get
@@ -48,9 +36,5 @@ public sealed class Failure : NotiraCard
         }
     }
 
-    public override async Task OnTurnEndInHand(PlayerChoiceContext choiceContext)
-    {
-         
-        
-    }
+   
 }

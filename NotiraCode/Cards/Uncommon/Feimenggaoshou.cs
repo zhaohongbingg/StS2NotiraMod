@@ -21,17 +21,18 @@ public class Feimenggaoshou() : NotiraCard(1, CardType.Skill, CardRarity.Uncommo
 
 
 
-   
+    protected override bool IsPlayable => base.Owner.Creature.GetPowerAmount<XPoint>() >= 20;
+    protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
+    {
+         new DynamicVar("IntangiblePower", 1m)
+
+    };
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        int a = base.Owner.Creature.GetPowerAmount<XPoint>();
-        int b = 0;
-        b = a % 5;
-        a /= 5;
-        await PowerCmd.Remove<XPoint>(Owner.Creature);
-        await PowerCmd.Apply<XPoint>(Owner.Creature, new DynamicVar("XPiont", b).BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<DexterityPower>(Owner.Creature, new DynamicVar("DEXTERITY", a).BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<StrengthPower>(Owner.Creature, new DynamicVar("STRENGTH", a).BaseValue, Owner.Creature, this);
+    
+        
+        await PowerCmd.Apply<IntangiblePower> (choiceContext, Owner.Creature, base.DynamicVars["IntangiblePower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint> (choiceContext, Owner.Creature,20m, Owner.Creature, this);
 
 
       
@@ -39,13 +40,16 @@ public class Feimenggaoshou() : NotiraCard(1, CardType.Skill, CardRarity.Uncommo
 
     }
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
-   HoverTipFactory.FromPower<XPoint>()
+   HoverTipFactory.FromPower<XPoint>(),
+   HoverTipFactory.FromPower<IntangiblePower>()
+
 
 ];
     protected override void OnUpgrade()
     {
-        base.EnergyCost.UpgradeBy(-1);
-         
+        base.DynamicVars["IntangiblePower"].UpgradeValueBy(1);
+
+
     }
 
 

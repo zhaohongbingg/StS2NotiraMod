@@ -30,7 +30,7 @@ public class Aokana() : NotiraCard(2, CardType.Skill, CardRarity.Uncommon, Targe
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<AokanaPower>(base.Owner.Creature, base.DynamicVars["Aokana"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<AokanaPower>(choiceContext, base.Owner.Creature, base.DynamicVars["Aokana"].BaseValue, base.Owner.Creature, this);
     }
     protected override void OnUpgrade()
     {

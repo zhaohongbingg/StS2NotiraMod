@@ -18,6 +18,7 @@ public class Notira : PlaceholderCharacterModel
 	public const string CharacterId = "Notira";
 
 	public override string CustomCharacterSelectBg => "res://Notira/Scences/NotiraBG.tscn";
+  
 
 	public override string PlaceholderID => "necrobinder";
 
@@ -71,4 +72,6 @@ public class Notira : PlaceholderCharacterModel
 	 public override string CustomArmPaperTexturePath => "res://Notira/Scences/hand/paper.png";
 	// 多人模式剪刀石头布-剪刀。
 	 public override string CustomArmScissorsTexturePath => "res://Notira/Scences/hand/Scissors.png";
+
+    public override float DeathAnimTime => 0f;
 }

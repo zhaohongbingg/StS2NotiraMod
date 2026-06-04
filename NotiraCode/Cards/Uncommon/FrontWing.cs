@@ -22,7 +22,7 @@ public class FrontWing() : NotiraCard(
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         var b = base.Owner.Creature.GetPowerAmount<KichikuPower>();
-        await PowerCmd.Apply<XPoint>(Owner.Creature, new DynamicVar("XPiont", b*2).BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, new DynamicVar("XPiont", b*2).BaseValue, Owner.Creature, this);
         await PowerCmd.Remove<KichikuPower>(base.Owner.Creature);
     }
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [

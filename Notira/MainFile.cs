@@ -1,3 +1,4 @@
+using BaseLib.Audio;
 using BaseLib.Utils;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
@@ -35,4 +36,11 @@ public class MainFile
 
         harmony.PatchAll();
     }
+ 
+
+    public static readonly AutoModAudio Audio =
+        new AutoModAudio($"res://{ModId}/music");
 }
+
+
+

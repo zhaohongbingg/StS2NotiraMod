@@ -1,0 +1,6 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b0jukk7fhhf0l"]
+
+[ext_resource type="Texture2D" uid="uid://cg7v47vadskyu" path="res://Notira/Images/Charui/big_energy.png" id="1_x2w8x"]
+
+[resource]
+atlas = ExtResource("1_x2w8x")

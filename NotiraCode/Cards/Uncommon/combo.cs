@@ -31,7 +31,7 @@ public class ComboCard() : NotiraCard(2,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<Combo>(Owner.Creature, DynamicVars["combo"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<Combo>(choiceContext, Owner.Creature, DynamicVars["combo"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

@@ -45,7 +45,8 @@ public abstract class BitterChoiceCardBase : NotiraCard
         await CardPileCmd.AddGeneratedCardToCombat(
             card,
             PileType.Hand,
-            true,
+            Owner,
+     
             CardPilePosition.Random
         );
     }
@@ -70,7 +71,7 @@ public abstract class BitterChoiceCardBase : NotiraCard
             await CardPileCmd.AddGeneratedCardToCombat(
                 selected,
                 PileType.Hand,
-                true,
+               Owner,
                 CardPilePosition.Random
             );
         }
