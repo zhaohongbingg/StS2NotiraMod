@@ -30,7 +30,7 @@ public class Whatcolorisyourattribute() : NotiraCard(0, CardType.Skill, CardRari
            
             item.BaseReplayCount++;
         }
-        await PowerCmd.Apply<XPoint>(Owner.Creature,-20m, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, -20m, Owner.Creature, this, false);
     }
     
     protected override void OnUpgrade()

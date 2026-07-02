@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 namespace Notira.Notira.Cards;
 
 
-public class Atri():NotiraCard(1,CardType.Attack,CardRarity.Uncommon,TargetType.AnyEnemy)
+public class Atri():NotiraCard(1,CardType.Attack,CardRarity.Common,TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {

@@ -30,7 +30,7 @@ public class HaisonShoujo() : NotiraCard(2,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<HaisonShoujoPower>(Owner.Creature, DynamicVars["HaisonShoujo"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<HaisonShoujoPower>(choiceContext, Owner.Creature, DynamicVars["HaisonShoujo"].BaseValue, Owner.Creature, this, false);
     }
 
     protected override void OnUpgrade()

@@ -27,13 +27,13 @@ using System.Threading.Tasks;
 namespace Notira.Notira.Cards;
 
 public class STEINSGATE() : NotiraCard(
-    3, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
+    3, CardType.Skill, CardRarity.Rare, TargetType.Self)
 {
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Steinsgate", 1m)];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<Steinsgate>(Owner.Creature, DynamicVars["Steinsgate"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<Steinsgate>(choiceContext, Owner.Creature, DynamicVars["Steinsgate"].BaseValue, Owner.Creature, this, false);
     }
 
 

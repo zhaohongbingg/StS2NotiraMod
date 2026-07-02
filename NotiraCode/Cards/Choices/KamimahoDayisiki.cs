@@ -51,7 +51,7 @@ public sealed class KamimahoDayisiki: BitterChoiceOptionCard
             count++;
 
         }
-        await PowerCmd.Apply<XPoint>(base.Owner.Creature, DynamicVars["XPoint"].BaseValue * count, base.Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, base.Owner.Creature, DynamicVars["XPoint"].BaseValue * count, base.Owner.Creature, this, false);
 
 
     }

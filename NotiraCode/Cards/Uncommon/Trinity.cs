@@ -31,9 +31,9 @@ public class Trinity() : NotiraCard(
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
          
-        await PowerCmd.Apply<FreeAttackPower>(Owner.Creature, DynamicVars["FREE_ATTACK"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<FreeSkillPower>(Owner.Creature, DynamicVars["FREE_SKILL"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<FreePowerPower>(Owner.Creature, DynamicVars["FREE_POWER"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<FreeAttackPower>(choiceContext, Owner.Creature, DynamicVars["FREE_ATTACK"].BaseValue, Owner.Creature, this, false);
+        await PowerCmd.Apply<FreeSkillPower>(choiceContext, Owner.Creature, DynamicVars["FREE_SKILL"].BaseValue, Owner.Creature, this, false);
+        await PowerCmd.Apply<FreePowerPower>(choiceContext, Owner.Creature, DynamicVars["FREE_POWER"].BaseValue, Owner.Creature, this, false);
 
 
     }

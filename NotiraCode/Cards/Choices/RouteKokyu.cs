@@ -49,10 +49,10 @@ public class Routekokyu() : NotiraCard(0, CardType.Skill, CardRarity.Token, Targ
     {
         foreach (Creature hittableEnemy in base.CombatState.HittableEnemies)
         {
-            await PowerCmd.Apply<BloodPower>(hittableEnemy, DynamicVars["Blood"].BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<SakuraPower>(hittableEnemy, DynamicVars["Sakura"].BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<TantiePower>(hittableEnemy, DynamicVars["Tantie"].BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<NoWingPower>(hittableEnemy, DynamicVars["NoWing"].BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<BloodPower>(choiceContext, hittableEnemy, DynamicVars["Blood"].BaseValue, Owner.Creature, this, false);
+            await PowerCmd.Apply<SakuraPower>(choiceContext, hittableEnemy, DynamicVars["Sakura"].BaseValue, Owner.Creature, this, false);
+            await PowerCmd.Apply<TantiePower>(choiceContext, hittableEnemy, DynamicVars["Tantie"].BaseValue, Owner.Creature, this, false);
+            await PowerCmd.Apply<NoWingPower>(choiceContext, hittableEnemy, DynamicVars["NoWing"].BaseValue, Owner.Creature, this, false);
         }
     }
 

@@ -1,4 +1,3 @@
-using BaseLib.Abstracts;
 using BaseLib.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Combat;
@@ -20,14 +19,38 @@ using Notira.Notira.Powers;
 namespace Notira.Notira.Powers;
 
 
-public class  EuthanasiaPower : CustomTemporaryPowerModelWrapper<Euthanasia, StrengthPower>
+public class EuthanasiaPower : NotiraPower
 {
-    protected override bool InvertInternalPowerAmount => true;
-    protected override bool UntilEndOfOtherSideTurn => false;
-
- 
-
     public override PowerType Type => PowerType.Debuff;
+    public override PowerStackType StackType => PowerStackType.Counter;
+    public override bool ShouldReceiveCombatHooks => true;
+    public PowerModel InternallyAppliedPower => ModelDb.Power<StrengthPower>();
+
+    private int Sign => -1;
+
+    public override async Task BeforeApplied(Creature target, decimal amount, Creature? applier, CardModel? cardSource)
+    {
+        await PowerCmd.Apply<StrengthPower>(null, target, (decimal)Sign * amount, applier, cardSource, silent: true);
+    }
+
+    public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature applier, CardModel cardSource)
+    {
+        if (!(amount == (decimal)base.Amount) && power == this)
+        {
+            await PowerCmd.Apply<StrengthPower>(choiceContext, base.Owner, (decimal)Sign * amount, applier, cardSource, silent: true);
+        }
+    }
+
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
+    {
+        if (side == Owner.Side)
+        {
+            Flash();
+            await PowerCmd.Remove(this);
+            await PowerCmd.Apply<StrengthPower>(choiceContext, Owner, -Sign * Amount, Owner, null);
+        }
+    }
+
     public override string CustomPackedIconPath
        => "res://Notira/Images/Powers/euthanasia_power.png";
 

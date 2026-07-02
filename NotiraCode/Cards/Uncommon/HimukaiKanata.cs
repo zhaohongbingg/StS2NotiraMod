@@ -38,7 +38,7 @@ public class HimukaiKanata() : NotiraCard(1, CardType.Skill, CardRarity.Uncommon
       
         a /= 10;
        
-        await PowerCmd.Apply<VigorPower>(Owner.Creature, new DynamicVar("VIGOR", a*2).BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<VigorPower>(choiceContext, Owner.Creature, new DynamicVar("VIGOR", a*2).BaseValue, Owner.Creature, this, false);
 
 
 

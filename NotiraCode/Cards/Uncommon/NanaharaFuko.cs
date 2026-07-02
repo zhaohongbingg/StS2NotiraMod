@@ -39,7 +39,7 @@ namespace Notira.Notira.Cards;
     {
         await CommonActions.CardBlock(this, cardPlay);
         await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
-        await PowerCmd.Apply<TauntPowers>(base.Owner.Creature, 1m, base.Owner.Creature, this);
+        await PowerCmd.Apply<TauntPowers>(choiceContext, base.Owner.Creature, 1m, base.Owner.Creature, this, false);
     }
     protected override void OnUpgrade()
     {

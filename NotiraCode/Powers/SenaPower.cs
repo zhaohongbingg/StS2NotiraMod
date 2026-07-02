@@ -34,7 +34,7 @@ public sealed class SenaPower : NotiraPower
 
     public override async Task AfterCardExhausted(PlayerChoiceContext choiceContext, CardModel card, bool causedByEthereal)
     {
-        await PowerCmd.Apply<XPoint>(base.Owner, 5, base.Owner, null);
+        await PowerCmd.Apply<XPoint>(choiceContext, base.Owner, 5, base.Owner, null, false);
     }
 
 

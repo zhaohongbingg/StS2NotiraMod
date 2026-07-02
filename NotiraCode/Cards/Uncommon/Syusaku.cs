@@ -38,11 +38,11 @@ public class Syusaku() : NotiraCard(
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<KichikuPower>(Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this, false);
         foreach (Creature hittableEnemy in base.CombatState.HittableEnemies)
         {
-            await PowerCmd.Apply<VulnerablePower>(hittableEnemy, base.DynamicVars.Vulnerable.BaseValue, Owner.Creature, this);
-            await PowerCmd.Apply<WeakPower>(hittableEnemy, DynamicVars.Weak.BaseValue, Owner.Creature, this);
+            await PowerCmd.Apply<VulnerablePower>(choiceContext, hittableEnemy, base.DynamicVars.Vulnerable.BaseValue, Owner.Creature, this, false);
+            await PowerCmd.Apply<WeakPower>(choiceContext, hittableEnemy, DynamicVars.Weak.BaseValue, Owner.Creature, this, false);
         }
     }
     protected override void OnUpgrade()

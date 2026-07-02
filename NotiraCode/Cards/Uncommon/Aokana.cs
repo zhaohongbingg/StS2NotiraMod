@@ -22,7 +22,7 @@ public class Aokana() : NotiraCard(2, CardType.Skill, CardRarity.Uncommon, Targe
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
-        new DynamicVar("Aokana", 0.5m)
+        new DynamicVar("Aokana", 1m)
     };
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [
    HoverTipFactory.FromPower<AokanaPower>()
@@ -30,7 +30,7 @@ public class Aokana() : NotiraCard(2, CardType.Skill, CardRarity.Uncommon, Targe
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<AokanaPower>(base.Owner.Creature, base.DynamicVars["Aokana"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<AokanaPower>(choiceContext, base.Owner.Creature, base.DynamicVars["Aokana"].BaseValue, base.Owner.Creature, this, false);
     }
     protected override void OnUpgrade()
     {

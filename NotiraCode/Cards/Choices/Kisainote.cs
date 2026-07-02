@@ -26,7 +26,7 @@ public class Kisainote() : NotiraCard(1, CardType.Skill, CardRarity.Token, Targe
     public override bool CanBeGeneratedInCombat => false;
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<KisainotePower>(Owner.Creature, DynamicVars["Kisainote"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<KisainotePower>(choiceContext, Owner.Creature, DynamicVars["Kisainote"].BaseValue, Owner.Creature, this, false);
         SfxHelper.Play("res://Notira/music/kisanote.ogg");
     }
 

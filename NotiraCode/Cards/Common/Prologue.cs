@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 namespace Notira.Notira.Cards;
 
 
-public class Prologue() : NotiraCard(0, CardType.Skill, CardRarity.Uncommon, TargetType.AllAllies)
+public class Prologue() : NotiraCard(0, CardType.Skill, CardRarity.Common, TargetType.AllAllies)
 {
  
  

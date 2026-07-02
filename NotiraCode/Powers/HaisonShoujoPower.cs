@@ -18,7 +18,7 @@ public sealed class HaisonShoujoPower : NotiraPower
     public override PowerType Type => PowerType.Buff;
 
     public override PowerStackType StackType => PowerStackType.Counter;
-    public override async Task AfterPowerAmountChanged(PowerModel power, decimal amount, Creature? applier, CardModel? cardSource)
+    public override async Task AfterPowerAmountChanged(PlayerChoiceContext context, PowerModel power, decimal amount, Creature? applier, CardModel? cardSource)
     {
         if (!(amount <= 0m) && applier == base.Owner && power.TypeForCurrentAmount == PowerType.Debuff)
         {

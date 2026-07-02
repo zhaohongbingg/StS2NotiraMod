@@ -23,7 +23,7 @@ public sealed class EuthanasiaPowers : NotiraPower
     {
         if (dealer == base.Owner && props.IsPoweredAttack())
         {
-            await PowerCmd.Apply<EuthanasiaPower>(target, base.Amount, base.Owner, null);
+            await PowerCmd.Apply<EuthanasiaPower>(choiceContext, target, base.Amount, base.Owner, null, false);
         }
     }
 }

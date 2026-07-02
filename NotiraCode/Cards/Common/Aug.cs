@@ -20,7 +20,7 @@ namespace Notira.Notira.Cards;
 
 
 
-public class Aug() : NotiraCard(1, CardType.Power, CardRarity.Common, TargetType.Self)
+public class Aug() : NotiraCard(1, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {
@@ -32,7 +32,7 @@ public class Aug() : NotiraCard(1, CardType.Power, CardRarity.Common, TargetType
     public override async Task AfterDeath(PlayerChoiceContext choiceContext, Creature creature, bool wasRemovalPrevented, float deathAnimLength)
     {
         await CreatureCmd.TriggerAnim(base.Owner.Creature, "Cast", base.Owner.Character.CastAnimDelay);
-        await PowerCmd.Apply<AugPower>(Owner.Creature, DynamicVars["Aug"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<AugPower>(choiceContext, Owner.Creature, DynamicVars["Aug"].BaseValue, Owner.Creature, this, false);
         
 
     }

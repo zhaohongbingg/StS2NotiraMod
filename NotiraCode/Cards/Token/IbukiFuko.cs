@@ -27,7 +27,7 @@ HoverTipFactory.FromPower<LightOrb>()
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<LightOrb>(Owner.Creature, DynamicVars["LightOrb"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<LightOrb>(choiceContext, Owner.Creature, DynamicVars["LightOrb"].BaseValue, Owner.Creature, this, false);
         await CardPileCmd.Draw(choiceContext,base.DynamicVars.Cards.IntValue, base.Owner);
     }
 

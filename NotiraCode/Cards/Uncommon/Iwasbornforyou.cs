@@ -31,7 +31,7 @@ public class Iwasbornforyou() : NotiraCard(1,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<SakuraPower>(cardPlay.Target, DynamicVars["Sakura"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<SakuraPower>(choiceContext, cardPlay.Target, DynamicVars["Sakura"].BaseValue, Owner.Creature, this, false);
     }
 
     protected override void OnUpgrade()

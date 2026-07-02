@@ -41,8 +41,8 @@ public class  oneArmedCrayfish() : NotiraCard(1, CardType.Skill, CardRarity.Comm
         await PowerCmd.Remove<XPoint>(base.Owner.Creature);
         await PowerCmd.Remove<KichikuPower>(base.Owner.Creature);
 
-        await PowerCmd.Apply<XPoint>(Owner.Creature, new DynamicVar("XPiont", b).BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<KichikuPower>(Owner.Creature, new DynamicVar("KichikuPower", a).BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, new DynamicVar("XPiont", b).BaseValue, Owner.Creature, this, false);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, Owner.Creature, new DynamicVar("KichikuPower", a).BaseValue, Owner.Creature, this, false);
 
 
     }

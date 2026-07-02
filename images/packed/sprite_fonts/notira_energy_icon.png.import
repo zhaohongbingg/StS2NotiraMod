@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnlb1v65ejxg2"
-path="res://.godot/imported/animation.png-4a5d820f5bfa609bd3f1da398a754d90.ctex"
+uid="uid://mho75qbjchnt"
+path="res://.godot/imported/notira_energy_icon.png-5226d5a75e0e4a2ca21d7b79d2fc326f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Notira/Scences/animetion/animation.png"
-dest_files=["res://.godot/imported/animation.png-4a5d820f5bfa609bd3f1da398a754d90.ctex"]
+source_file="res://images/packed/sprite_fonts/notira_energy_icon.png"
+dest_files=["res://.godot/imported/notira_energy_icon.png-5226d5a75e0e4a2ca21d7b79d2fc326f.ctex"]
 
 [params]
 

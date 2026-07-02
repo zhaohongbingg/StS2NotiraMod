@@ -57,7 +57,10 @@ public sealed class KamimahoDayikira : BitterChoiceOptionCard
         DynamicVars.CalculatedBlock.Props,
         cardPlay
     ); 
-        await PowerCmd.SetAmount<XPoint>(base.Owner.Creature, DynamicVars.CalculatedBlock.Calculate(cardPlay.Target)*0.5m, base.Owner.Creature, this);
+        decimal targetAmount = DynamicVars.CalculatedBlock.Calculate(cardPlay.Target) * 0.5m;
+        decimal currentAmount = base.Owner.Creature.GetPowerAmount<XPoint>();
+        decimal offset = targetAmount - currentAmount;
+        await PowerCmd.ModifyAmount(choiceContext, base.Owner.Creature.GetPower<XPoint>(), offset, base.Owner.Creature, this, false);
 
 
     }

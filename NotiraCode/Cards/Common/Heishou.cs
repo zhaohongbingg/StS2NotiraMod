@@ -30,7 +30,7 @@ public class Heishou() : NotiraCard(1,
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<KichikuPower>(Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<KichikuPower>(choiceContext, Owner.Creature, DynamicVars["Kichiku"].BaseValue, Owner.Creature, this, false);
     }
 
     protected override void OnUpgrade()

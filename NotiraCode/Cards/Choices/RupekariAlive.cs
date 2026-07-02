@@ -51,7 +51,7 @@ public sealed class RupekariAlive : BitterChoiceOptionCard
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<StrengthPower>(base.Owner.Creature, DynamicVars["Strength"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<StrengthPower>(choiceContext, base.Owner.Creature, DynamicVars["Strength"].BaseValue, base.Owner.Creature, this, false);
         await  PlayerCmd.GainEnergy(DynamicVars.Energy.IntValue,base.Owner);
 
 

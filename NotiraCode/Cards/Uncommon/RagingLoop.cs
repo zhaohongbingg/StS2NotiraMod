@@ -34,7 +34,7 @@ public class  RagingLoop() : NotiraCard(2,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<RagingLoopPower>(Owner.Creature, DynamicVars["RL"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<RagingLoopPower>(choiceContext, Owner.Creature, DynamicVars["RL"].BaseValue, Owner.Creature, this, false);
     }
 
     protected override void OnUpgrade()

@@ -23,12 +23,12 @@ public sealed class HumanityPower : NotiraPower
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
 
-    public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side == base.Owner.Side)
         {
-            await PowerCmd.Apply<WeakPower>(base.Owner, 1, base.Owner, null);
-            await PowerCmd.Apply<FrailPower>(base.Owner, 1, base.Owner, null);
+            await PowerCmd.Apply<WeakPower>(new ThrowingPlayerChoiceContext(), base.Owner, 1, base.Owner, null, false);
+            await PowerCmd.Apply<FrailPower>(new ThrowingPlayerChoiceContext(), base.Owner, 1, base.Owner, null, false);
         }
     }
 

@@ -45,11 +45,11 @@ public class ChronoBox() : NotiraCard(0, CardType.Attack, CardRarity.Uncommon, T
                 .Targeting(cardPlay.Target)
                 .Execute(choiceContext);
             int unblockedHits = attackCommand.Results
-             .Count(r => r.UnblockedDamage > 0);
+             .SelectMany(r => r).Count(r => r.UnblockedDamage > 0);
 
             if (unblockedHits > 0)
             {
-                await PowerCmd.Apply<BloodPower>(cardPlay.Target, unblockedHits, null, this);
+                await PowerCmd.Apply<BloodPower>(choiceContext, cardPlay.Target, unblockedHits, null, this, false);
             }
         }
         else

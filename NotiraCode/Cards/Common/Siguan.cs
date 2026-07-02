@@ -36,9 +36,9 @@ public class Siguan() : NotiraCard(1, CardType.Attack, CardRarity.Common, Target
     {
         AttackCommand attackCommand = await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target).Execute(choiceContext);
       
-        if(attackCommand.Results.Any((DamageResult r) => r.WasBlockBroken ))          
+        if(attackCommand.Results.SelectMany(r => r).Any((DamageResult r) => r.WasBlockBroken))          
         {
-            await PowerCmd.Apply<KichikuPower>(this.Owner.Creature, base.DynamicVars["KichikuPower"].BaseValue,Owner.Creature, this);
+            await PowerCmd.Apply<KichikuPower>(choiceContext, this.Owner.Creature, base.DynamicVars["KichikuPower"].BaseValue, Owner.Creature, this, false);
         }
 
 

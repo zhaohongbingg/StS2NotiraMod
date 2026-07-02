@@ -34,7 +34,7 @@ public sealed class ShioiriKukuri : BitterChoiceOptionCard
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CardPileCmd.Draw(choiceContext, base.DynamicVars.Cards.IntValue, base.Owner);
-        await PowerCmd.Apply<SlothPower>(base.Owner.Creature, base.DynamicVars["SlothPower"].IntValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<SlothPower>(choiceContext, base.Owner.Creature, base.DynamicVars["SlothPower"].IntValue, base.Owner.Creature, this, false);
 
 
     }

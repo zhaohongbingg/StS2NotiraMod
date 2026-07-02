@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using BaseLib.Hooks;
 using Godot;
 using MegaCrit.Sts2.Core.Combat;
@@ -55,7 +56,7 @@ public sealed class SakuraPower : NotiraPower
 
 
 
-    public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side != base.Owner.Side)
             return;
@@ -93,15 +94,15 @@ public sealed class SakuraPower : NotiraPower
         //恢复原 Power 层数
         if (hardenedShellAmount > 0)
         {
-            await PowerCmd.Apply<HardenedShellPower>(base.Owner, hardenedShellAmount, null, null);
+            await PowerCmd.Apply<HardenedShellPower>(new ThrowingPlayerChoiceContext(), base.Owner, hardenedShellAmount, null, null, false);
         }
         if (hardToKillAmount > 0)
         {
-            await PowerCmd.Apply<HardToKillPower>(base.Owner, hardToKillAmount, null, null);
+            await PowerCmd.Apply<HardToKillPower>(new ThrowingPlayerChoiceContext(), base.Owner, hardToKillAmount, null, null, false);
         }
         if (intangibleAmount > 0)
         {
-            await PowerCmd.Apply<IntangiblePower>(base.Owner, intangibleAmount, null, null);
+            await PowerCmd.Apply<IntangiblePower>(new ThrowingPlayerChoiceContext(), base.Owner, intangibleAmount, null, null, false);
         }
 
 
@@ -111,7 +112,7 @@ public sealed class SakuraPower : NotiraPower
 
 
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
         if (side == CombatSide.Enemy)
         {

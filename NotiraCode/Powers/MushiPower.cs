@@ -27,7 +27,7 @@ public sealed class MushiPower : NotiraPower
         new DamageVar(9,ValueProp.Unpowered),
         new RepeatVar(2)
     };
-    public override async Task BeforeTurnEndEarly(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task BeforeSideTurnEndEarly(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
   
         

@@ -11,15 +11,15 @@ namespace Notira.Notira.Characters;
 public sealed class NotiraCardPool : CustomCardPoolModel 
 {
     public override string Title => Notira.CharacterId; //This is not a display name.
-    //public override string EnergyColorName => Notira.CharacterId;
+
 
 
     public override string BigEnergyIconPath => "res://Notira/Images/Charui/big_energy.png";
     public override  string TextEnergyIconPath => "res://Notira/Images/Charui/text_energy.png";
 
+    
 
-
-
+    
 
 
 

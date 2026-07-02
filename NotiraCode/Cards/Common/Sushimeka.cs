@@ -38,7 +38,7 @@ public class Sushimeka() : NotiraCard(
 };
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<RegenPower>(Owner.Creature, DynamicVars["REGEN"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<RegenPower>(choiceContext, Owner.Creature, DynamicVars["REGEN"].BaseValue, Owner.Creature, this, false);
 
 
     }

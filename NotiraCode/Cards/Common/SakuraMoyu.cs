@@ -44,8 +44,8 @@ public class SakuraMoyu() : NotiraCard(
     {
 
          
-        await PowerCmd.Apply<XPoint>(Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<SakuraMoyoPower>(Owner.Creature, DynamicVars["SakuraMoyo"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this, false);
+        await PowerCmd.Apply<SakuraMoyoPower>(choiceContext, Owner.Creature, DynamicVars["SakuraMoyo"].BaseValue, Owner.Creature, this, false);
        
 
     }

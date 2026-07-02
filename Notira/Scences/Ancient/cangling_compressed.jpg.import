@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj38r0kiuyqrr"
-path="res://.godot/imported/historyBG.png-7150ff60fc11fa7bf02c5228ae878bc6.ctex"
+uid="uid://wpm7a2s33a5m"
+path="res://.godot/imported/cangling_compressed.jpg-bd6990a98e0b2ae9a246937f2577fe6a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Notira/Scences/History/historyBG.png"
-dest_files=["res://.godot/imported/historyBG.png-7150ff60fc11fa7bf02c5228ae878bc6.ctex"]
+source_file="res://Notira/Scences/Ancient/cangling_compressed.jpg"
+dest_files=["res://.godot/imported/cangling_compressed.jpg-bd6990a98e0b2ae9a246937f2577fe6a.ctex"]
 
 [params]
 

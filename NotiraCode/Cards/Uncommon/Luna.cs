@@ -26,7 +26,7 @@ public class Luna() : NotiraCard(2, CardType.Skill, CardRarity.Uncommon, TargetT
     {
         Creature creature = base.Owner.Creature;
         await CreatureCmd.GainBlock(base.Owner.Creature, base.DynamicVars.Block, cardPlay);
-        await PowerCmd.Apply<BlockNextTurnPower>(creature, creature.Block, creature, this);
+        await PowerCmd.Apply<BlockNextTurnPower>(choiceContext, creature, creature.Block, creature, this, false);
         SfxHelper.Play("res://Notira/music/luna.ogg");
 
 

@@ -32,8 +32,8 @@ public class Feimenggaoshou() : NotiraCard(1, CardType.Skill, CardRarity.Uncommo
     {
 
 
-        await PowerCmd.Apply<IntangiblePower>(Owner.Creature, base.DynamicVars["IntangiblePower"].BaseValue, Owner.Creature, this);
-        await PowerCmd.Apply<XPoint>(Owner.Creature, -20m, Owner.Creature, this);
+        await PowerCmd.Apply<IntangiblePower>(choiceContext, Owner.Creature, base.DynamicVars["IntangiblePower"].BaseValue, Owner.Creature, this, false);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, -20m, Owner.Creature, this, false);
 
 
 

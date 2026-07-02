@@ -17,7 +17,7 @@ namespace Notira.Notira.Cards;
 
 
 public class Purple(): NotiraCard(1,
-    CardType.Power, CardRarity.Common,
+    CardType.Power, CardRarity.Uncommon,
     TargetType.Self)
 {
  
@@ -30,7 +30,7 @@ public class Purple(): NotiraCard(1,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<XPoint>(Owner.Creature,DynamicVars["XPoint"].BaseValue,Owner.Creature,this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this, false);
     }
 
     protected override void OnUpgrade()

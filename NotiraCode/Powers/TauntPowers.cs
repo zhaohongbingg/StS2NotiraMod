@@ -26,7 +26,7 @@ public sealed class TauntPower : NotiraPower
         {
             if (item.IsAlive && item.IsPlayer && item != base.Owner)
             {
-                await PowerCmd.Apply<TauntPower>(item, base.Amount, base.Owner, null);
+                await PowerCmd.Apply<TauntPower>(new ThrowingPlayerChoiceContext(), item, base.Amount, base.Owner, null, false);
             }
         }
     }

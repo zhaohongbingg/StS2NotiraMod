@@ -33,7 +33,7 @@ public class MajoNikki():NotiraCard(1,CardType.Skill,CardRarity.Uncommon,TargetT
 
         foreach (Creature hittableEnemy in base.CombatState.HittableEnemies)
         {
-            await PowerCmd.Apply<MajoNikkiPower>(hittableEnemy, base.DynamicVars["StrengthLoss"].BaseValue, base.Owner.Creature, this);
+            await PowerCmd.Apply<MajoNikkiPower>(choiceContext, hittableEnemy, base.DynamicVars["StrengthLoss"].BaseValue, base.Owner.Creature, this, false);
         }
     }
     protected override void OnUpgrade()

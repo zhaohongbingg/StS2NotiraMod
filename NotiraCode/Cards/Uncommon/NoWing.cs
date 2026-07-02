@@ -33,7 +33,7 @@ public class NoWing() : NotiraCard(2,
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<NoWingPower>(cardPlay.Target, DynamicVars["NoWing"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<NoWingPower>(choiceContext, cardPlay.Target, DynamicVars["NoWing"].BaseValue, Owner.Creature, this, false);
     }
 
     protected override void OnUpgrade()

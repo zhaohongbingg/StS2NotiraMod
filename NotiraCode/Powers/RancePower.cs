@@ -28,14 +28,11 @@ public sealed class RancePower :NotiraPower
     public override PowerStackType StackType => PowerStackType.Single;
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
 {
-       new DynamicVar("Artfact",1)
-
 };
     
 
     public override async Task AfterPlayerTurnStartEarly(PlayerChoiceContext choiceContext, Player player)
     {
-         await PowerCmd.Apply<ArtifactPower>(Owner, DynamicVars["Artfact"].BaseValue, Owner,null);
     }
     public override decimal ModifyDamageMultiplicative(Creature target, decimal amount, ValueProp props, Creature dealer, CardModel cardSource)
     {      
@@ -57,7 +54,7 @@ public sealed class RancePower :NotiraPower
             return 1m;
         }
         decimal Edamage = dealer.GetPowerAmount<KichikuPower>();
-        return 1m + Edamage*0.5m;
+        return Edamage * 0.25m;
 
     }
 }

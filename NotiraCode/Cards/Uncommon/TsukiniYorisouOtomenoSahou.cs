@@ -18,7 +18,7 @@ namespace Notira.Notira.Cards;
 
 
 
-public class TsukiniYorisouOtomenoSahou() : NotiraCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
+public class TsukiniYorisouOtomenoSahou() : NotiraCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]
     {

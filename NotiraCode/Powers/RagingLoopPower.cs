@@ -34,7 +34,7 @@ public sealed class RagingLoopPower : NotiraPower
     {
         if (dealer == base.Owner && props.IsPoweredAttack() && result.UnblockedDamage > 0)
         {
-            await PowerCmd.Apply<BloodPower>(target, base.Amount, base.Owner, null);
+            await PowerCmd.Apply<BloodPower>(choiceContext, target, base.Amount, base.Owner, null, false);
         }
     }
 

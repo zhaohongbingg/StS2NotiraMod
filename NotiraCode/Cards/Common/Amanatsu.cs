@@ -33,7 +33,7 @@ public class Amanatus() : NotiraCard(
 ];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<XPoint>(Owner.Creature, -DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, -DynamicVars["XPoint"].BaseValue, Owner.Creature, this, false);
         await PlayerCmd.GainEnergy(base.DynamicVars.Energy.IntValue, base.Owner);
 
     }

@@ -25,7 +25,7 @@ public sealed class  TauntPowers : NotiraPower
     {
         new StringVar("Applier")
     };
-     public override bool IsInstanced => true;
+     public override PowerInstanceType InstanceType => PowerInstanceType.Instanced;
     public override Task AfterApplied(Creature? applier, CardModel? cardSource)
     {
         ((StringVar)base.DynamicVars["Applier"]).StringValue = PlatformUtil.GetPlayerName(RunManager.Instance.NetService.Platform, base.Applier.Player.NetId);

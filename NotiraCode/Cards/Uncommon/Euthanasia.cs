@@ -49,6 +49,7 @@ public class Euthanasia() : NotiraCard(2, CardType.Attack, CardRarity.Common, Ta
             .OnlyPlayAnimOnce()
             .Execute(choiceContext);
         var hitsPerTarget = attackCommand.Results
+     .SelectMany(r => r)
      .Where(r => r.UnblockedDamage > 0)
      .GroupBy(r => r.Receiver)
      .ToDictionary(g => g.Key, g => g.Count());
@@ -58,7 +59,7 @@ public class Euthanasia() : NotiraCard(2, CardType.Attack, CardRarity.Common, Ta
             int hitsOnThisEnemy = hitsPerTarget.GetValueOrDefault(enemy, 0);
             if (hitsOnThisEnemy > 0)
             {
-                await PowerCmd.Apply<EuthanasiaPower>(enemy, hitsOnThisEnemy, Owner.Creature, this);
+                await PowerCmd.Apply<EuthanasiaPower>(choiceContext, enemy, hitsOnThisEnemy, Owner.Creature, this, false);
             }
         }
       

@@ -8,6 +8,8 @@ using MegaCrit.Sts2.Core.Models.RelicPools;
 using Notira.Notira.Extensions;
 using Notira.Notira.Cards;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using Notira.Notira.Characters;
 using Notira.Notira.Relics;
 
@@ -27,21 +29,30 @@ public class Notira : PlaceholderCharacterModel
 	public override CharacterGender Gender => CharacterGender.Feminine;
 	public override int StartingHp => 77;
 
-	public override IEnumerable<CardModel> StartingDeck => [
-		ModelDb.Card<NotiraAttack>(),
-		ModelDb.Card<NotiraAttack>(),
-		ModelDb.Card<NotiraAttack>(),
-		ModelDb.Card<NotiraAttack>(),
-		ModelDb.Card<NotiraAttack>(),
-		ModelDb.Card<NotiraBlock>(),
-		ModelDb.Card<NotiraBlock>(),
-		ModelDb.Card<NotiraBlock>(),
-		ModelDb.Card<NotiraBlock>(),
-		ModelDb.Card<Classic>()
-
-		 
-	];
-
+	public override IEnumerable<CardModel> StartingDeck
+	{
+		get
+		{
+			// 基础卡组
+			var deck = new List<CardModel>
+			{
+				ModelDb.Card<NotiraAttack>(),
+				ModelDb.Card<NotiraAttack>(),
+				ModelDb.Card<NotiraAttack>(),
+				ModelDb.Card<NotiraAttack>(),
+				ModelDb.Card<NotiraAttack>(),
+				ModelDb.Card<NotiraBlock>(),
+				ModelDb.Card<NotiraBlock>(),
+				ModelDb.Card<NotiraBlock>(),
+				ModelDb.Card<NotiraBlock>(),
+			};
+			
+			// 默认添加Classic
+			deck.Add(ModelDb.Card<Classic>());
+			
+			return deck;
+		}
+	}
 	 
 	public override IReadOnlyList<RelicModel> StartingRelics => [ ModelDb.Relic<NotiraNewbie>(),];
 

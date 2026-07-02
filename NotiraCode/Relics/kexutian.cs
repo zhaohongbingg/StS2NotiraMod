@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
@@ -13,7 +15,6 @@ using MegaCrit.Sts2.Core.Nodes.Combat;
 using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.ValueProps;
 using Notira.Notira.Powers;
-using System.Threading.Tasks;
 
 
 namespace Notira.Notira.Relics;
@@ -28,12 +29,12 @@ public class Kixutian : NotiraRelics
         new DynamicVar("tantie", 3m),
 
     };
-    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, CombatState combatState)
+    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side == base.Owner.Creature.Side && combatState.RoundNumber <= 2)
         {
             Flash();
-            await PowerCmd.Apply<TantiePower>(combatState.HittableEnemies, base.DynamicVars["tantie"].BaseValue, base.Owner.Creature, null);
+            await PowerCmd.Apply<TantiePower>(choiceContext, combatState.HittableEnemies, base.DynamicVars["tantie"].BaseValue, base.Owner.Creature, null, false);
         }
     }
 }

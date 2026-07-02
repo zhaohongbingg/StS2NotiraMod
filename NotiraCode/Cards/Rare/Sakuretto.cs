@@ -52,7 +52,7 @@ public class Sakuretto() : NotiraCard(1,
 		}
 		else
 		{
-			await PowerCmd.Apply<TantiePower>(cardPlay.Target, DynamicVars["Tantie"].BaseValue, Owner.Creature, this);
+			await PowerCmd.Apply<TantiePower>(choiceContext, cardPlay.Target, DynamicVars["Tantie"].BaseValue, Owner.Creature, this, false);
 		}
 	}
 

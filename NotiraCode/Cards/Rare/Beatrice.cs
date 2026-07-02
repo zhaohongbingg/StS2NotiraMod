@@ -30,7 +30,7 @@ public class  Beatrice(): NotiraCard(4,CardType.Skill,CardRarity.Rare,TargetType
         int count = base.Owner.PlayerCombatState.Hand.Cards.Count;
         decimal count2 = Math.Max(0m, baseValue - (decimal)count);
         await CardPileCmd.Draw(choiceContext, count2, base.Owner);
-        await PowerCmd.Apply<Goldmajou>(base.Owner.Creature, 1, base.Owner.Creature, this);}
+        await PowerCmd.Apply<Goldmajou>(choiceContext, base.Owner.Creature, 1, base.Owner.Creature, this, false);}
     protected override void OnUpgrade()
     {
        base.EnergyCost.UpgradeBy(-1);

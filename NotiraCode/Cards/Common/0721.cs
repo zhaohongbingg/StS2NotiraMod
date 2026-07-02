@@ -24,7 +24,7 @@ public class Notira0721():NotiraCard(
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         await CardPileCmd.Draw(choiceContext,base.DynamicVars.Cards.IntValue,base.Owner);
-        await PowerCmd.Apply<XPoint>(Owner.Creature,DynamicVars["XPoint"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<XPoint>(choiceContext, Owner.Creature, DynamicVars["XPoint"].BaseValue, Owner.Creature, this, false);
 
          
     }
