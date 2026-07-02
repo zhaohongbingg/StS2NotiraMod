@@ -1,0 +1,7 @@
+{
+  "CARD_PACK_SELECTION.title": "Card Pack Selection",
+  "CARD_PACK_SELECTION.description": "Choose 3 card packs to appear in your run.",
+  "CARD_PACK_SELECTION.neow_title": "Pack Selection",
+  "CARD_PACK_SELECTION.neow_description": "Select 3 card packs to be available this run.",
+  "CARD_PACK_SELECTION.selection_prompt": "Select 3 card packs"
+}

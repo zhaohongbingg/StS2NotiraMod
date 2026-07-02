@@ -18,6 +18,7 @@ using System.Threading.Tasks;
 namespace Notira.Notira.Cards;
 
 
+[CardPack("CLANNAD")]
 public class Clannad() : NotiraCard(1, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => new DynamicVar[]

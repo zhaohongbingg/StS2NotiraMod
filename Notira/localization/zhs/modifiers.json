@@ -1,0 +1,7 @@
+{
+  "CARD_PACK_SELECTION.title": "卡包选择",
+  "CARD_PACK_SELECTION.description": "选择3个卡包，本局只出现这些卡包中的卡牌。",
+  "CARD_PACK_SELECTION.neow_title": "选择卡包",
+  "CARD_PACK_SELECTION.neow_description": "选择3个卡包，本局游戏将只出现这些卡包中的卡牌。",
+  "CARD_PACK_SELECTION.selection_prompt": "请选择3个卡包"
+}
